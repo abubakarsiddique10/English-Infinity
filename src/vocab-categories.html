@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header id="header" class="sticky w-full top-0 border-b">
+    <header id="header" class="fixed w-full top-0 border-b">
         <div class="container">
             <nav class="lg:flex items-center justify-between py-4 z-10 space-y-2 lg:space-y-0">
                 <div class="flex items-center justify-between">
@@ -35,7 +35,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="capitalize font-medium py-2 px-4 rounded-md leading-5 text-[15px] text-[#000000cc] tracking-[-0.45px]"
-                                href="./vocab-categories.html">vocabulary</a>
+                                href="./index.html">vocabulary</a>
                         </li>
                         <li class="nav-item">
                             <a class="capitalize font-medium py-2 px-4 rounded-md leading-5 text-[15px] text-[#000000cc] tracking-[-0.45px]"
@@ -61,30 +61,31 @@
 
 
     <main>
-        <section class="mt-32">
+        <section>
             <div class="container">
-                <div class="grid gap-5 grid-cols-5">
-                    <div class="border p-6 rounded-xl">
-                        <div class="w-16 h-16 rounded-full mb-2 mx-auto">
-                            <img class="w-full" src="./assets/images/vegetables/cabbage.png" alt="">
-                        </div>
-                        <div>
-                            <h5 class="text-lg font-normal leading-6 capitalize text-center">
-                                Cabbage
-                            </h5>
-                            <span
-                                class="block text-center text-[15px] mt-0.5 font-['Hind_Siliguri'] font-medium text-[#334155]">বাঁধাকপি</span>
-                            <!-- <p class="font-medium text-center lowercase first-letter:capitalize">I eat Cabbage</p> -->
-                        </div>
-                        <button
-                            class="border border-green-600 w-full capitalize rounded-full mt-3 inline-block py-1">See
-                            More</button>
+                <a class="mt-32 block" href="vocabulary.html">
+                    <div class="text-center">
+                        <img class="max-w-[100px] h-[100px] md:max-w-[110px] md:h-[110px] mx-auto"
+                            src="./assets/images/blust/Bust1.png" alt="Vocabulary Categories Image" />
+                        <h2 class="capitalize text-2xl md:text-3xl font-bold font-['Hind_Siliguri']">
+                            Categories
+                            of vocabulary</h2>
                     </div>
-                </div>
+                    <div id="categories"
+                        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4 sm:gap-5 mt-11">
+                        <!-- Category cards will be dynamically inserted here -->
+                    </div>
+                </a>
             </div>
         </section>
+
+
+
     </main>
+
+    <!-- script -->
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/vocabulary.js"></script>
 </body>
 
 </html>

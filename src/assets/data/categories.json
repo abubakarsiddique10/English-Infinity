@@ -1,0 +1,74 @@
+[
+    {
+        "name": "animals",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "business",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "education",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "food",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "religion",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "sports",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "colors",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "body parts",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "birds",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "fruits",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "flowers",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "vegetables",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "fish",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "clothes",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "profession",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "relatives",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "tools",
+        "img": "./assets/images/icons/vegetables.png"
+    },
+    {
+        "name": "vehicles",
+        "img": "./assets/images/icons/vegetables.png"
+    }
+]
