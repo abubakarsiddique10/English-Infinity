@@ -46,10 +46,11 @@ function createCategoryCard(category) {
 window.addEventListener('load', () => {
     const categoryCards = document.querySelectorAll('.category-card');
     categoryCards.forEach((categoryCard) => {
-        categoryCard.addEventListener('click', () => {
-            console.log('click')
-            const categoryName = categoryCard.innerText.toLowerCase();
-            window.location.href = "vocabulary.html?category=" + categoryName
+        categoryCard.addEventListener('click', (e) => {
+            categoryCard.style.background = "red"
+            console.log(categoryCard)
+            /*  const categoryName = categoryCard.innerText.toLowerCase();
+             window.location.href = "vocabulary.html?category=" + categoryName */
         });
     });
 })
