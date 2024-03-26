@@ -43,8 +43,9 @@ function createCategoryCard(category) {
 
 
 
-/* window.addEventListener('load', () => {
+window.addEventListener('load', () => {
     const categoryCards = document.querySelectorAll('.category-card');
+    console.log(categoryCards)
     categoryCards.forEach((categoryCard) => {
         categoryCard.addEventListener('click', (e) => {
             categoryCard.style.background = "yellow";
@@ -55,9 +56,9 @@ function createCategoryCard(category) {
         });
     });
 })
- */
 
-window.addEventListener('load', () => {
+
+/* window.addEventListener('load', () => {
     // Use event delegation on a parent element that exists when the page loads
     document.addEventListener('click', function (event) {
         const categoryCard = event.target.closest('.category-card');
@@ -66,7 +67,7 @@ window.addEventListener('load', () => {
             window.location.href = "vocabulary.html?category=" + categoryName;
         }
     });
-});
+}); */
 
 
 
