@@ -25,7 +25,7 @@ function displayCategories(catagories) {
 // Function to create a category card element
 function createCategoryCard(category) {
     // Part 1
-    const categoryCard = document.createElement('a');
+    const categoryCard = document.createElement('div');
     categoryCard.classList.add(
         "category-card", "block", "flex", "items-center", "gap-1.5", "shadow-3xl", "cursor-pointer",
         "px-1", "pr-1.5", "sm:pr-1",)
@@ -48,7 +48,8 @@ window.addEventListener('load', () => {
     categoryCards.forEach((categoryCard) => {
         categoryCard.addEventListener('click', () => {
             const categoryName = categoryCard.innerText.toLowerCase();
-            categoryCard.href = "vocabulary.html?category=" + categoryName
+            /* categoryCard.href = "vocabulary.html?category=" + categoryName */
+            window.location.href = "vocabulary.html?category=" + categoryName
         });
     });
 })

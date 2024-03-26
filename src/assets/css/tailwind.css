@@ -691,10 +691,6 @@ video {
   max-width: 100px;
 }
 
-.cursor-auto {
-  cursor: auto;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -972,10 +968,6 @@ video {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:cursor-pointer {
-    cursor: pointer;
   }
 
   .lg\:grid-cols-4 {
