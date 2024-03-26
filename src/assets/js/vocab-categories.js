@@ -27,14 +27,14 @@ function createCategoryCard(category) {
     // Part 1
     const categoryCard = document.createElement('a');
     categoryCard.classList.add(
-        "category-card", "block", "flex", "items-center", "gap-1.5", "shadow-3xl", "cursor-auto", "lg:cursor-pointer",
+        "category-card", "block", "flex", "items-center", "gap-1.5", "shadow-3xl", "cursor-pointer",
         "px-1", "pr-1.5", "sm:pr-1",)
 
     categoryCard.innerHTML = `
     <figure class="w-12 h-12 flex items-center justify-center rounded">
         <img src="${category.img}"/>
     </figure>
-    <h3 class="font-semibold leading-6 text-xl font-['Hind_Siliguri'] text-[#363637] capitalize">
+    <h3 class="font-semibold leading-6 text-xl font-['Hind_Siliguri'] text-[#363637] capitalize select-none">
     ${category.name}
     </h3>
     `
