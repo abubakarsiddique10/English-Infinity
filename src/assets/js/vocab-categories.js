@@ -27,7 +27,7 @@ function createCategoryCard(category) {
     // Part 1
     const categoryCard = document.createElement('div');
     categoryCard.classList.add(
-        "category-card", "block", "flex", "items-center", "gap-1.5", "shadow-3xl", "cursor-pointer",
+        "category-card", "flex", "items-center", "gap-1.5", "shadow-3xl",
         "px-1", "pr-1.5", "sm:pr-1",)
 
     categoryCard.innerHTML = `
@@ -47,10 +47,12 @@ window.addEventListener('load', () => {
     const categoryCards = document.querySelectorAll('.category-card');
     categoryCards.forEach((categoryCard) => {
         categoryCard.addEventListener('click', () => {
+            console.log('click')
             const categoryName = categoryCard.innerText.toLowerCase();
-            /* categoryCard.href = "vocabulary.html?category=" + categoryName */
             window.location.href = "vocabulary.html?category=" + categoryName
         });
     });
 })
 
+
+/* categoryCard.href = "vocabulary.html?category=" + categoryName */
