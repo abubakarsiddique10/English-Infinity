@@ -20,7 +20,6 @@ const displayVocabularies = (vocabularies) => {
     vocabularies.forEach(vocabulary => {
         const card = createVocabulariesCard(vocabulary);
         vocabularyContainer.append(card)
-        console.log(card)
     });
 }
 
