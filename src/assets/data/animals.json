@@ -1,0 +1,425 @@
+[
+    {
+        "_id": "0",
+        "word": "cow",
+        "meaning": "গাভী",
+        "image": "https://i.ibb.co/jJ4YJXC/cow.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "1",
+        "word": "bee",
+        "meaning": "মৌমাছি",
+        "image": "https://i.ibb.co/pf1WVDL/bee.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "2",
+        "word": "grasshopper",
+        "meaning": "ফড়িং",
+        "image": "https://i.ibb.co/jvT2FFF/grasshopper.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "3",
+        "word": "snake",
+        "meaning": "সাপ",
+        "image": "https://i.ibb.co/2kGJBT1/snake.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "4",
+        "word": "monkey",
+        "meaning": "বানর",
+        "image": "https://i.ibb.co/M2507f4/monkey.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "5",
+        "word": "lizard",
+        "meaning": "টিকটিকি",
+        "image": "https://i.ibb.co/jHbdWgN/lizard.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "6",
+        "word": "cat",
+        "meaning": "বিড়াল",
+        "image": "https://i.ibb.co/mbfdRx3/cat.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "7",
+        "word": "turtle",
+        "meaning": "কচ্ছপ",
+        "image": "https://i.ibb.co/FX0Jx66/turtle.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "8",
+        "word": "frog",
+        "meaning": "ব্যাঙ",
+        "image": "https://i.ibb.co/9p9NTb8/frog.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "9",
+        "word": "ant",
+        "meaning": "পিঁপড়া",
+        "image": "https://i.ibb.co/VLcZMW6/ant.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "10",
+        "word": "camel",
+        "meaning": "উট",
+        "image": "https://i.ibb.co/dtTnDYL/camel.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "11",
+        "word": "bear",
+        "meaning": "ভালুক",
+        "image": "https://i.ibb.co/JKxvKpY/bear.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "12",
+        "word": "armadillo",
+        "meaning": "আরমাডিলো",
+        "image": "https://i.ibb.co/GWP8qJX/armadillo.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "13",
+        "word": "buffalo",
+        "meaning": "মহিষ",
+        "image": "https://i.ibb.co/nBy7nSz/buffalo.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "14",
+        "word": "bull",
+        "meaning": "ষাঁড়",
+        "image": "https://i.ibb.co/VNmnr3N/bull.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "15",
+        "word": "cheetah",
+        "meaning": "চিতা",
+        "image": "https://i.ibb.co/DKvtQMd/cheetah.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "16",
+        "word": "chick",
+        "meaning": "ছানা",
+        "image": "https://i.ibb.co/YRr0N8q/chick.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "17",
+        "word": "chicken",
+        "meaning": "মুরগি",
+        "image": "https://i.ibb.co/KWHnbfs/chicken.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "18",
+        "word": "cock",
+        "meaning": "মোরগ",
+        "image": "https://i.ibb.co/tBS5MBt/cock.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "19",
+        "word": "dog",
+        "meaning": "কুকুর",
+        "image": "https://i.ibb.co/Q9yByWW/dog.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "20",
+        "word": "crocodile",
+        "meaning": "কুমির",
+        "image": "https://i.ibb.co/6NHVFCB/crocodile.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "21",
+        "word": "crow",
+        "meaning": "কাক",
+        "image": "https://i.ibb.co/kK4kRGz/crow.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "22",
+        "word": "deer",
+        "meaning": "হরিণ",
+        "image": "https://i.ibb.co/99D58PC/deer.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "23",
+        "word": "dove",
+        "meaning": "ঘুঘু",
+        "image": "https://i.ibb.co/FbXWjQB/dove.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "24",
+        "word": "duck",
+        "meaning": "হাঁস",
+        "image": "https://i.ibb.co/d0cRTG2/duck.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "25",
+        "word": "eagle",
+        "meaning": "ঈগল",
+        "image": "https://i.ibb.co/M19WKRV/eagle.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "26",
+        "word": "elephant",
+        "meaning": "হাতি",
+        "image": "https://i.ibb.co/jH9SPn7/elephant.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "27",
+        "word": "fox",
+        "meaning": "শিয়াল",
+        "image": "https://i.ibb.co/RCytwDK/fox.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "28",
+        "word": "giraffe",
+        "meaning": "জিরাফ",
+        "image": "https://i.ibb.co/dkT06yv/giraffe.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "29",
+        "word": "goat",
+        "meaning": "ছাগল",
+        "image": "https://i.ibb.co/4j4VMLk/goat.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "30",
+        "word": "goose",
+        "meaning": "হংস",
+        "image": "https://i.ibb.co/Bzw8K7X/goose.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "31",
+        "word": "gorilla",
+        "meaning": "গরিলা",
+        "image": "https://i.ibb.co/SRFNsm4/gorilla.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "32",
+        "word": "hare",
+        "meaning": "খরগোশ",
+        "image": "https://i.ibb.co/WkqxscC/hare.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "33",
+        "word": "hen",
+        "meaning": "মুরগি",
+        "image": "https://i.ibb.co/hK3RYJD/hen.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "34",
+        "word": "horse",
+        "meaning": "ঘোড়া",
+        "image": "https://i.ibb.co/2yPBdK1/horse.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "35",
+        "word": "hyena",
+        "meaning": "হায়েনা",
+        "image": "https://i.ibb.co/6RbjsJp/hyena.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "36",
+        "word": "kangaroo",
+        "meaning": "ক্যাঙ্গারু",
+        "image": "https://i.ibb.co/tH7kck9/kangaroo.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "37",
+        "word": "ladybug",
+        "meaning": "ভদ্রমহিলা",
+        "image": "https://i.ibb.co/BB4j8r6/ladybug.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "38",
+        "word": "lion",
+        "meaning": "সিংহ",
+        "image": "https://i.ibb.co/8MJwxn0/lion.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "39",
+        "word": "mongoose",
+        "meaning": "বেজি",
+        "image": "https://i.ibb.co/rF8sqp3/mongoose.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "40",
+        "word": "pork",
+        "meaning": "শুয়োরের মাংস",
+        "image": "https://i.ibb.co/zJDr0c0/pork.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "41",
+        "word": "rat",
+        "meaning": "ইঁদুর",
+        "image": "https://i.ibb.co/GCLnQ5G/mouse.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "42",
+        "word": "rhinoceros",
+        "meaning": "গন্ডার",
+        "image": "https://i.ibb.co/ZHfthLP/rhinoceros.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "43",
+        "word": "rubber-duck",
+        "meaning": "রাবার হাঁস",
+        "image": "https://i.ibb.co/yNKLQDD/rubber-duck.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "44",
+        "word": "tiger",
+        "meaning": "বাঘ",
+        "image": "https://i.ibb.co/0DZs8SB/tiger.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "45",
+        "word": "zebra",
+        "meaning": "জেব্রা",
+        "image": "https://i.ibb.co/qkH0rjP/zebra.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    },
+    {
+        "_id": "46",
+        "word": "chimpanzee",
+        "meaning": "শিম্পাঞ্জি",
+        "image": "https://i.ibb.co/kcSFvtj/chimpanzee.png",
+        "synonym": [],
+        "antonym": [],
+        "sentence": ""
+    }
+]

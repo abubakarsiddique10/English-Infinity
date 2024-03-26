@@ -3,7 +3,7 @@
         "_id": 0,
         "word": "cabbage",
         "meaning": "বাঁধাকপি",
-        "image": "https://i.ibb.co/QJVWqR7/cabbage.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -12,7 +12,7 @@
         "_id": 1,
         "word": "cauliflower",
         "meaning": "ফুলকপি",
-        "image": "https://i.ibb.co/NC35Sgk/cauliflower.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -21,7 +21,7 @@
         "_id": 2,
         "word": "mushroom",
         "meaning": "মাশরুম",
-        "image": "https://i.ibb.co/vzMV64D/mushroom.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -30,7 +30,7 @@
         "_id": 3,
         "word": "potato",
         "meaning": "আলু",
-        "image": "https://i.ibb.co/nbK6cbc/potato.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -39,7 +39,7 @@
         "_id": 4,
         "word": "tomato",
         "meaning": "টমেটো",
-        "image": "https://i.ibb.co/Tb0XjvX/tomato.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -48,7 +48,7 @@
         "_id": 5,
         "word": "cucumber",
         "meaning": "শসা",
-        "image": "https://i.ibb.co/BnTnYZ9/cucumber.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -57,7 +57,7 @@
         "_id": 6,
         "word": "carrot",
         "meaning": "গাজর",
-        "image": "https://i.ibb.co/hHrVdNp/carrot.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -66,7 +66,7 @@
         "_id": 7,
         "word": "red chili",
         "meaning": "লাল মরিচ",
-        "image": "https://i.ibb.co/dJcsdxq/red-chili.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -75,7 +75,7 @@
         "_id": 8,
         "word": "eggplant",
         "meaning": "বেগুন",
-        "image": "https://i.ibb.co/LZ4t8Fj/eggplant.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -84,7 +84,7 @@
         "_id": 9,
         "word": "Lady's fingers",
         "meaning": "ঢেঁড়স",
-        "image": "https://i.ibb.co/kSrv9cH/okra.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -93,7 +93,7 @@
         "_id": 10,
         "word": "onion",
         "meaning": "পেঁয়াজ",
-        "image": "https://i.ibb.co/mtGYM4F/onion.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -102,7 +102,7 @@
         "_id": 11,
         "word": "papaya",
         "meaning": "পেঁপে",
-        "image": "https://i.ibb.co/cQg50Xr/papaya.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -111,7 +111,7 @@
         "_id": 12,
         "word": "pumpkin",
         "meaning": "মিষ্টি কুমড়া",
-        "image": "https://i.ibb.co/zmXLgsf/pumpkin.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -120,7 +120,7 @@
         "_id": 13,
         "word": "radish",
         "meaning": "মূলা",
-        "image": "https://i.ibb.co/chj1Shg/radish.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -129,7 +129,7 @@
         "_id": 14,
         "word": "sweet potato",
         "meaning": "মিষ্টি আলু",
-        "image": "https://i.ibb.co/mbB7ktV/sweet-potato.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -138,7 +138,7 @@
         "_id": 15,
         "word": "garlic",
         "meaning": "রসুন",
-        "image": "https://i.ibb.co/W5gJfqs/garlic.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -147,7 +147,7 @@
         "_id": 16,
         "word": "ginger",
         "meaning": "আদা",
-        "image": "https://i.ibb.co/PMy7R9f/ginger.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -156,7 +156,7 @@
         "_id": 17,
         "word": "bitter gourd",
         "meaning": "করলা",
-        "image": "https://i.ibb.co/27xmZpN/bitter-gourd.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -165,7 +165,7 @@
         "_id": 18,
         "word": "broccoli",
         "meaning": "ব্রকলি",
-        "image": "https://i.ibb.co/hLfHGfx/broccoli.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -174,7 +174,7 @@
         "_id": 19,
         "word": "Capsicum",
         "meaning": "ক্যাপসিকাম",
-        "image": "https://i.ibb.co/f4Fq7Y3/Capsicum.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -183,7 +183,7 @@
         "_id": 20,
         "word": "coriander",
         "meaning": "ধনেপাতা",
-        "image": "https://i.ibb.co/s3CvNgQ/coriander.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -192,7 +192,7 @@
         "_id": 21,
         "word": "corn",
         "meaning": "ভুট্টা",
-        "image": "https://i.ibb.co/6H7rQHh/corn.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -201,7 +201,7 @@
         "_id": 22,
         "word": "gourd",
         "meaning": "লাউ",
-        "image": "https://i.ibb.co/p0m7Fjt/gourd.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -210,7 +210,7 @@
         "_id": 23,
         "word": "green chili",
         "meaning": "সবুজ মরিচ",
-        "image": "https://i.ibb.co/pnWynvc/green-chili.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -219,7 +219,7 @@
         "_id": 24,
         "word": "lettuce",
         "meaning": "লেটুস",
-        "image": "https://i.ibb.co/kMq4wNs/lettuce.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -228,7 +228,7 @@
         "_id": 25,
         "word": "mint",
         "meaning": "পুদিনা",
-        "image": "https://i.ibb.co/pX6c15X/mint.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -237,7 +237,7 @@
         "_id": 26,
         "word": "pea",
         "meaning": "মটরশুটি",
-        "image": "https://i.ibb.co/744Bhn3/peas.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -246,7 +246,7 @@
         "_id": 27,
         "word": "spinach",
         "meaning": "পালংশাক",
-        "image": "https://i.ibb.co/VwqKRck/spinach.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -255,7 +255,7 @@
         "_id": 28,
         "word": "Colocasia/taro",
         "meaning": "কচুর মুখি",
-        "image": "https://i.ibb.co/YRB9R05/taro.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -264,7 +264,7 @@
         "_id": 29,
         "word": "turnip",
         "meaning": "শালগম",
-        "image": "https://i.ibb.co/M56tsvY/turnip.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -273,7 +273,7 @@
         "_id": 30,
         "word": "watercress",
         "meaning": "হেলেঞ্চা শাক",
-        "image": "https://i.ibb.co/gSkQGzM/watercress.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -282,7 +282,7 @@
         "_id": 31,
         "word": "zucchini",
         "meaning": "ধুন্দল",
-        "image": "https://i.ibb.co/HVMj575/zucchini.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -291,7 +291,7 @@
         "_id": 32,
         "word": "cowpea",
         "meaning": "বরবটি",
-        "image": "https://i.ibb.co/fQ3SB2Y/cowpea.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""
@@ -300,7 +300,7 @@
         "_id": 33,
         "word": "malabar spinach",
         "meaning": "পুঁইশাক",
-        "image": "https://i.ibb.co/LNwnbVW/malabar-spinach.png",
+        "image": "./assets/images/vegetables/cabbage.png",
         "synonym": [],
         "antonym": [],
         "sentence": ""

@@ -95,6 +95,11 @@ body {
 #banner {
    border-bottom: 1px solid #8080803b;
    background: var(--color-banner-gradient);
+  /*  background-image: url(../images/banner/banner.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh; */
 }
 .banner {
     height: calc(100vh - 1px);
@@ -138,9 +143,3 @@ body {
     background: transparent;
     border: 1.5px solid var(--color-border-1);
 }
-
-
-
-/* .v_card {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 1px 8px; 
-} */
