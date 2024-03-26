@@ -691,8 +691,8 @@ video {
   max-width: 100px;
 }
 
-.cursor-grab {
-  cursor: grab;
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .select-none {

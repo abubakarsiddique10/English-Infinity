@@ -28,7 +28,7 @@ function createCategoryCard(category) {
     const categoryCard = document.createElement('div');
     categoryCard.classList.add(
         "category-card", "flex", "items-center", "gap-1.5", "shadow-3xl",
-        "px-1", "pr-1.5", "sm:pr-1",)
+        "px-1", "pr-1.5", "sm:pr-1", "cursor-pointer",)
 
     categoryCard.innerHTML = `
     <figure class="w-12 h-12 flex items-center justify-center rounded">
@@ -42,32 +42,33 @@ function createCategoryCard(category) {
 }
 
 
-
+/* 
 window.addEventListener('load', () => {
     const categoryCards = document.querySelectorAll('.category-card');
-    console.log(categoryCards)
     categoryCards.forEach((categoryCard) => {
         categoryCard.addEventListener('click', (e) => {
             categoryCard.style.background = "yellow";
             console.log(event.target.closest('.category-card'))
 
-            const categoryName = categoryCard.innerText.toLowerCase();
-            window.location.href = "vocabulary.html?category=" + categoryName
+             const categoryName = categoryCard.innerText.toLowerCase();
+             window.location.href = "vocabulary.html?category=" + categoryName
         });
     });
-})
+}) */
 
 
-/* window.addEventListener('load', () => {
+window.addEventListener('load', () => {
     // Use event delegation on a parent element that exists when the page loads
-    document.addEventListener('click', function (event) {
+    const categories = document.getElementById('categories');
+    categories.addEventListener('click', function (event) {
+        console.log(event.target.closest('.category-card'))
         const categoryCard = event.target.closest('.category-card');
         if (categoryCard) {
             const categoryName = categoryCard.innerText.toLowerCase();
             window.location.href = "vocabulary.html?category=" + categoryName;
         }
     });
-}); */
+});
 
 
 
