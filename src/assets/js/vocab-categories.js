@@ -28,7 +28,7 @@ function createCategoryCard(category) {
     const categoryCard = document.createElement('div');
     categoryCard.classList.add(
         "category-card", "flex", "items-center", "gap-1.5", "shadow-3xl",
-        "px-1", "pr-1.5", "sm:pr-1", "cursor-grab")
+        "px-1", "pr-1.5", "sm:pr-1",)
 
     categoryCard.innerHTML = `
     <figure class="w-12 h-12 flex items-center justify-center rounded">
@@ -43,7 +43,7 @@ function createCategoryCard(category) {
 
 
 
-window.addEventListener('load', () => {
+/* window.addEventListener('load', () => {
     const categoryCards = document.querySelectorAll('.category-card');
     categoryCards.forEach((categoryCard) => {
         categoryCard.addEventListener('click', (e) => {
@@ -53,8 +53,27 @@ window.addEventListener('load', () => {
             window.location.href = "vocabulary.html?category=" + categoryName
         });
     });
-})
+}) */
 
+window.addEventListener('load', () => {
+    const categoryCards = document.querySelectorAll('.category-card');
+    categoryCards.forEach((categoryCard) => {
+        categoryCard.addEventListener('click', handleClick);
+        categoryCard.addEventListener('touchstart', handleTouch);
+    });
+
+    function handleClick(event) {
+        event.preventDefault(); // Prevent the default action
+        const categoryName = this.innerText.toLowerCase();
+        window.location.href = "vocabulary.html?category=" + categoryName;
+    }
+
+    function handleTouch(event) {
+        event.preventDefault(); // Prevent the default action
+        const categoryName = this.innerText.toLowerCase();
+        window.location.href = "vocabulary.html?category=" + categoryName;
+    }
+});
 
 
 
