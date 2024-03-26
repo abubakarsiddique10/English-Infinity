@@ -43,25 +43,65 @@ function createCategoryCard(category) {
 
 
 
-window.addEventListener('load', () => {
-    const btn = document.querySelector('.btn');
-    btn.addEventListener('click', () => {
-        btn.style.background = "green"
-    })
+/* window.addEventListener('load', () => {
     const categoryCards = document.querySelectorAll('.category-card');
     categoryCards.forEach((categoryCard) => {
         categoryCard.addEventListener('click', (e) => {
-            categoryCard.style.background = "red"
+            categoryCard.style.background = "yellow"
 
             const categoryName = categoryCard.innerText.toLowerCase();
             window.location.href = "vocabulary.html?category=" + categoryName
         });
     });
-})
-const btn = document.querySelector('.btn');
-btn.addEventListener('click', () => {
-    btn.style.background = "yellow"
-})
+}) */
+window.addEventListener('load', () => {
+    const categoryCards = document.querySelectorAll('.category-card');
+    categoryCards.forEach((categoryCard) => {
+        categoryCard.addEventListener('click', handleClick);
+        categoryCard.addEventListener('touchstart', handleTouchStart);
+        categoryCard.addEventListener('touchend', handleTouchEnd);
+    });
+
+    function handleClick(event) {
+        event.preventDefault();
+        const categoryName = getCategoryName(event);
+        navigateToCategory(categoryName);
+    }
+
+    let touchStartX = null;
+    let touchStartY = null;
+
+    function handleTouchStart(event) {
+        touchStartX = event.touches[0].clientX;
+        touchStartY = event.touches[0].clientY;
+    }
+
+    function handleTouchEnd(event) {
+        if (touchStartX === null || touchStartY === null) {
+            return;
+        }
+        const touchEndX = event.changedTouches[0].clientX;
+        const touchEndY = event.changedTouches[0].clientY;
+        const deltaX = Math.abs(touchEndX - touchStartX);
+        const deltaY = Math.abs(touchEndY - touchStartY);
+        if (deltaX < 10 && deltaY < 10) {
+            event.preventDefault();
+            const categoryName = getCategoryName(event);
+            navigateToCategory(categoryName);
+        }
+        touchStartX = null;
+        touchStartY = null;
+    }
+
+    function getCategoryName(event) {
+        return event.target.innerText.toLowerCase();
+    }
+
+    function navigateToCategory(categoryName) {
+        window.location.href = "vocabulary.html?category=" + categoryName;
+    }
+});
+
 
 
 
