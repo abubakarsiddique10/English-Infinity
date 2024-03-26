@@ -43,7 +43,11 @@ function createCategoryCard(category) {
 
 
 
-/* window.addEventListener('load', () => {
+window.addEventListener('load', () => {
+    const btn = document.querySelector('.btn');
+    btn.addEventListener('click', () => {
+        btn.style.background = "green"
+    })
     const categoryCards = document.querySelectorAll('.category-card');
     categoryCards.forEach((categoryCard) => {
         categoryCard.addEventListener('click', (e) => {
@@ -53,27 +57,11 @@ function createCategoryCard(category) {
             window.location.href = "vocabulary.html?category=" + categoryName
         });
     });
-}) */
-
-window.addEventListener('load', () => {
-    const categoryCards = document.querySelectorAll('.category-card');
-    categoryCards.forEach((categoryCard) => {
-        categoryCard.addEventListener('click', handleClick);
-        categoryCard.addEventListener('touchstart', handleTouch);
-    });
-
-    function handleClick(event) {
-        event.preventDefault(); // Prevent the default action
-        const categoryName = this.innerText.toLowerCase();
-        window.location.href = "vocabulary.html?category=" + categoryName;
-    }
-
-    function handleTouch(event) {
-        event.preventDefault(); // Prevent the default action
-        const categoryName = this.innerText.toLowerCase();
-        window.location.href = "vocabulary.html?category=" + categoryName;
-    }
-});
+})
+const btn = document.querySelector('.btn');
+btn.addEventListener('click', () => {
+    btn.style.background = "yellow"
+})
 
 
 
