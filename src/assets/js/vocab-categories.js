@@ -46,7 +46,7 @@ function createCategoryCard(category) {
 window.addEventListener('load', () => {
     const categoryCards = document.querySelectorAll('.category-card');
     categoryCards.forEach((categoryCard) => {
-        categoryCard.addEventListener('click', (e) => {
+        categoryCard.addEventListener('touchstart', (e) => {
             categoryCard.style.background = "red"
             console.log(categoryCard)
             /*  const categoryName = categoryCard.innerText.toLowerCase();
