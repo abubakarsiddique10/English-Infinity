@@ -36,19 +36,7 @@
         "img": "./assets/images/icons/vegetables.png"
     },
     {
-        "name": "fruits",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
         "name": "flowers",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
-        "name": "vegetables",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
-        "name": "fish",
         "img": "./assets/images/icons/vegetables.png"
     },
     {

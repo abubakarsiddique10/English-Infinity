@@ -1,3 +1,5 @@
+import { fetchData } from "./common.js";
+
 /* NAVBAR START */
 const navbarToggler = document.querySelector('.navbar-toggler');
 const openMenu = document.getElementById('open-menu');
@@ -36,9 +38,40 @@ window.addEventListener('scroll', () => {
         header.classList.remove('header__bg')
     }
 })
+
+// Load MenuItem
+async function getMenuItem() {
+    const url = `././assets/data/MenuItem.json`;
+    try {
+        const menuItem = await fetchData(url);
+        displayMenuItem(menuItem)
+    } catch (error) {
+        console.error(error)
+    }
+}
+getMenuItem();
+
+// Display MenuItem in the UI
+const displayMenuItem = (menuItem) => {
+    const ul = document.getElementById('menuItem');
+    menuItem.forEach(item => {
+        const createMenuElement = createMenuItem(item)
+        ul.appendChild(createMenuElement)
+    });
+}
+
+// Create a menu element
+const createMenuItem = (item) => {
+    const li = document.createElement('li');
+    li.classList.add('nav-item')
+    li.innerHTML = `
+        <a class="capitalize font-medium py-2 px-4 rounded-md leading-5 text-[15px] text-[#000000cc] tracking-[-0.45px] nav-active" aria-current="page" href="${item.link}">
+                ${item.name}
+        </a>
+    `;
+    return li
+}
 /* NAVBAR END */
-
-
 
 
 /* const isActive = true

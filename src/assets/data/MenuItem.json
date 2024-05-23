@@ -1,0 +1,10 @@
+[
+    {
+        "name": "home",
+        "link": "index.html"
+    },
+    {
+        "name": "vocabulary",
+        "link": "./vocab-categories.html"
+    }
+]
