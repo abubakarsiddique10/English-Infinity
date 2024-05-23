@@ -1,308 +1,471 @@
 [
     {
+        "_comment": "start vegetable vocabulary",
         "_id": 0,
         "word": "cabbage",
         "meaning": "বাঁধাকপি",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "cabbage",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 1,
         "word": "cauliflower",
         "meaning": "ফুলকপি",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "cauliflower",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 2,
         "word": "mushroom",
         "meaning": "মাশরুম",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "mushroom",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 3,
         "word": "potato",
         "meaning": "আলু",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "potato",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 4,
         "word": "tomato",
         "meaning": "টমেটো",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "tomato",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 5,
         "word": "cucumber",
         "meaning": "শসা",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "cucumber",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 6,
         "word": "carrot",
         "meaning": "গাজর",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "f-carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 7,
-        "word": "red chili",
-        "meaning": "লাল মরিচ",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "word": "chili",
+        "meaning": "মরিচ",
+        "image": "pepper",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 8,
         "word": "eggplant",
         "meaning": "বেগুন",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "eggplant",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 9,
         "word": "Lady's fingers",
         "meaning": "ঢেঁড়স",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 10,
         "word": "onion",
         "meaning": "পেঁয়াজ",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "onion",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 11,
         "word": "papaya",
         "meaning": "পেঁপে",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 12,
         "word": "pumpkin",
         "meaning": "মিষ্টি কুমড়া",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "pumpkin",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 13,
         "word": "radish",
         "meaning": "মূলা",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "raddish",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 14,
         "word": "sweet potato",
         "meaning": "মিষ্টি আলু",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 15,
         "word": "garlic",
         "meaning": "রসুন",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 16,
         "word": "ginger",
         "meaning": "আদা",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 17,
         "word": "bitter gourd",
         "meaning": "করলা",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 18,
         "word": "broccoli",
         "meaning": "ব্রকলি",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "broccoli",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 19,
         "word": "Capsicum",
         "meaning": "ক্যাপসিকাম",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 20,
         "word": "coriander",
         "meaning": "ধনেপাতা",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 21,
         "word": "corn",
         "meaning": "ভুট্টা",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 22,
         "word": "gourd",
         "meaning": "লাউ",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 23,
         "word": "green chili",
         "meaning": "সবুজ মরিচ",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 24,
         "word": "lettuce",
         "meaning": "লেটুস",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 25,
         "word": "mint",
         "meaning": "পুদিনা",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 26,
         "word": "pea",
         "meaning": "মটরশুটি",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 27,
         "word": "spinach",
         "meaning": "পালংশাক",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 28,
         "word": "Colocasia/taro",
         "meaning": "কচুর মুখি",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 29,
         "word": "turnip",
         "meaning": "শালগম",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 30,
         "word": "watercress",
         "meaning": "হেলেঞ্চা শাক",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 31,
         "word": "zucchini",
         "meaning": "ধুন্দল",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 32,
         "word": "cowpea",
         "meaning": "বরবটি",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
     },
     {
         "_id": 33,
         "word": "malabar spinach",
         "meaning": "পুঁইশাক",
-        "image": "./assets/images/vegetables/cabbage.png",
+        "image": "carrot",
         "synonym": [],
         "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
         "sentence": ""
+    },
+    {
+        "_id": 34,
+        "word": "spinach",
+        "meaning": "পালং শাক",
+        "image": "",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": "Spinach is rich in iron and can be eaten raw or cooked."
+    },
+    {
+        "_id": 35,
+        "word": "garlic",
+        "meaning": "রসুন",
+        "image": "",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": "Garlic is known for its strong flavor and numerous health benefits."
+    },
+    {
+        "_id": 36,
+        "word": "peas",
+        "meaning": "মটরশুঁটি",
+        "image": "",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": "Peas are often used in soups, stews, and as a side dish."
+    },
+    {
+        "_id": 37,
+        "word": "corn",
+        "meaning": "ভুট্টা",
+        "image": "",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": "Corn can be eaten on the cob, as a side dish, or in salads."
+    },
+    {
+        "_id": 38,
+        "word": "okra",
+        "meaning": "ভিন্ডি",
+        "image": "",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": "Okra is commonly used in soups, stews, and fried dishes."
     }
 ]

@@ -38,3 +38,48 @@ window.addEventListener('scroll', () => {
 })
 /* NAVBAR END */
 
+
+
+
+/* const isActive = true
+const num = 1;
+
+const food = (isActive) ? "Birany" : "Cha";
+const food2 = null || "hello"
+console.log(food2) */
+
+
+
+/* function second() {
+    console.log('I am second')
+}
+
+function first() {
+    console.log('I am first');
+    setTimeout(second, 1000);
+    console.log('Hello')
+}
+first() */
+
+/* setTimeout(() => {
+    console.log('Hello time')
+}, 0);
+
+const isActive = true
+const newPromise = new Promise((resolve, reject) => {
+    if (isActive) {
+        resolve('Active')
+    } else {
+        reject('not active')
+    }
+})
+
+
+newPromise
+    .then((res) => console.log(res))
+    .catch((res) => console.log(res))
+
+
+
+console.log('Hell world') */
+
