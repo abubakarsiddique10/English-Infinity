@@ -3,423 +3,593 @@
         "_id": "0",
         "word": "cow",
         "meaning": "গাভী",
-        "image": "https://i.ibb.co/jJ4YJXC/cow.png",
+        "image": "cow",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The cow gives us milk.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "1",
         "word": "bee",
         "meaning": "মৌমাছি",
-        "image": "https://i.ibb.co/pf1WVDL/bee.png",
+        "image": "bee",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "Bees collect nectar from flowers.",
+        "tags": [
+            "insect"
+        ]
     },
     {
         "_id": "2",
         "word": "grasshopper",
         "meaning": "ফড়িং",
-        "image": "https://i.ibb.co/jvT2FFF/grasshopper.png",
+        "image": "grasshopper",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The grasshopper jumped high.",
+        "tags": [
+            "insect"
+        ]
     },
     {
         "_id": "3",
         "word": "snake",
         "meaning": "সাপ",
-        "image": "https://i.ibb.co/2kGJBT1/snake.png",
+        "image": "snake",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The snake slithered through the grass.",
+        "tags": [
+            "reptile"
+        ]
     },
     {
         "_id": "4",
         "word": "monkey",
         "meaning": "বানর",
-        "image": "https://i.ibb.co/M2507f4/monkey.png",
+        "image": "monkey",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The monkey swung from tree to tree.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "5",
         "word": "lizard",
         "meaning": "টিকটিকি",
-        "image": "https://i.ibb.co/jHbdWgN/lizard.png",
+        "image": "lizard",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The lizard basked in the sun.",
+        "tags": [
+            "reptile"
+        ]
     },
     {
         "_id": "6",
         "word": "cat",
         "meaning": "বিড়াল",
-        "image": "https://i.ibb.co/mbfdRx3/cat.png",
+        "image": "cat",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The cat chased the mouse.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "7",
         "word": "turtle",
         "meaning": "কচ্ছপ",
-        "image": "https://i.ibb.co/FX0Jx66/turtle.png",
+        "image": "turtle",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The turtle moved slowly.",
+        "tags": [
+            "reptile"
+        ]
     },
     {
         "_id": "8",
         "word": "frog",
         "meaning": "ব্যাঙ",
-        "image": "https://i.ibb.co/9p9NTb8/frog.png",
+        "image": "frog",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The frog croaked loudly.",
+        "tags": [
+            "amphibian"
+        ]
     },
     {
         "_id": "9",
         "word": "ant",
         "meaning": "পিঁপড়া",
-        "image": "https://i.ibb.co/VLcZMW6/ant.png",
+        "image": "ant",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The ant carried a large leaf.",
+        "tags": [
+            "insect"
+        ]
     },
     {
         "_id": "10",
         "word": "camel",
         "meaning": "উট",
-        "image": "https://i.ibb.co/dtTnDYL/camel.png",
+        "image": "camel",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The camel traveled through the desert.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "11",
         "word": "bear",
         "meaning": "ভালুক",
-        "image": "https://i.ibb.co/JKxvKpY/bear.png",
+        "image": "bear",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The bear hibernates in winter.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "12",
         "word": "armadillo",
         "meaning": "আরমাডিলো",
-        "image": "https://i.ibb.co/GWP8qJX/armadillo.png",
+        "image": "armadillo",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The armadillo curled into a ball.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "13",
         "word": "buffalo",
         "meaning": "মহিষ",
-        "image": "https://i.ibb.co/nBy7nSz/buffalo.png",
+        "image": "buffalo",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The buffalo grazed in the field.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "14",
         "word": "bull",
         "meaning": "ষাঁড়",
-        "image": "https://i.ibb.co/VNmnr3N/bull.png",
+        "image": "bull",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The bull charged at the matador.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "15",
         "word": "cheetah",
         "meaning": "চিতা",
-        "image": "https://i.ibb.co/DKvtQMd/cheetah.png",
+        "image": "cheetah",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The cheetah ran swiftly.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "16",
         "word": "chick",
         "meaning": "ছানা",
-        "image": "https://i.ibb.co/YRr0N8q/chick.png",
+        "image": "chick",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The chick hatched from the egg.",
+        "tags": [
+            "bird"
+        ]
     },
     {
         "_id": "17",
         "word": "chicken",
         "meaning": "মুরগি",
-        "image": "https://i.ibb.co/KWHnbfs/chicken.png",
+        "image": "chicken",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The chicken clucked loudly.",
+        "tags": [
+            "bird"
+        ]
     },
     {
         "_id": "18",
         "word": "cock",
         "meaning": "মোরগ",
-        "image": "https://i.ibb.co/tBS5MBt/cock.png",
+        "image": "cock",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The cock crowed at dawn.",
+        "tags": [
+            "bird"
+        ]
     },
     {
         "_id": "19",
         "word": "dog",
         "meaning": "কুকুর",
-        "image": "https://i.ibb.co/Q9yByWW/dog.png",
+        "image": "dog",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The dog barked loudly.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "20",
         "word": "crocodile",
         "meaning": "কুমির",
-        "image": "https://i.ibb.co/6NHVFCB/crocodile.png",
+        "image": "crocodile",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The crocodile lurked beneath the water.",
+        "tags": [
+            "reptile"
+        ]
     },
     {
         "_id": "21",
         "word": "crow",
         "meaning": "কাক",
-        "image": "https://i.ibb.co/kK4kRGz/crow.png",
+        "image": "crow",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The crow cawed loudly.",
+        "tags": [
+            "bird"
+        ]
     },
     {
         "_id": "22",
         "word": "deer",
         "meaning": "হরিণ",
-        "image": "https://i.ibb.co/99D58PC/deer.png",
+        "image": "deer",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The deer grazed peacefully in the meadow.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "23",
         "word": "dove",
         "meaning": "ঘুঘু",
-        "image": "https://i.ibb.co/FbXWjQB/dove.png",
+        "image": "dove",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The dove cooed softly.",
+        "tags": [
+            "bird"
+        ]
     },
     {
         "_id": "24",
         "word": "duck",
         "meaning": "হাঁস",
-        "image": "https://i.ibb.co/d0cRTG2/duck.png",
+        "image": "duck",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The duck quacked as it waddled by the pond.",
+        "tags": [
+            "bird"
+        ]
     },
     {
         "_id": "25",
         "word": "eagle",
         "meaning": "ঈগল",
-        "image": "https://i.ibb.co/M19WKRV/eagle.png",
+        "image": "eagle",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The eagle soared high in the sky.",
+        "tags": [
+            "bird"
+        ]
     },
     {
         "_id": "26",
         "word": "elephant",
         "meaning": "হাতি",
-        "image": "https://i.ibb.co/jH9SPn7/elephant.png",
+        "image": "elephant",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The elephant trumpeted loudly.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "27",
         "word": "fox",
         "meaning": "শিয়াল",
-        "image": "https://i.ibb.co/RCytwDK/fox.png",
+        "image": "fox",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The fox darted through the bushes.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "28",
         "word": "giraffe",
         "meaning": "জিরাফ",
-        "image": "https://i.ibb.co/dkT06yv/giraffe.png",
+        "image": "giraffe",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The giraffe stretched its neck to reach the leaves.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "29",
         "word": "goat",
         "meaning": "ছাগল",
-        "image": "https://i.ibb.co/4j4VMLk/goat.png",
+        "image": "goat",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The goat climbed the rocky hill.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "30",
         "word": "goose",
         "meaning": "হংস",
-        "image": "https://i.ibb.co/Bzw8K7X/goose.png",
+        "image": "goose",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The goose honked loudly as it flew overhead.",
+        "tags": [
+            "bird"
+        ]
     },
     {
         "_id": "31",
         "word": "gorilla",
         "meaning": "গরিলা",
-        "image": "https://i.ibb.co/SRFNsm4/gorilla.png",
+        "image": "gorilla",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The gorilla pounded its chest.",
+        "tags": [
+            "animal",
+            "mammal",
+            "primate"
+        ]
     },
     {
         "_id": "32",
         "word": "hare",
         "meaning": "খরগোশ",
-        "image": "https://i.ibb.co/WkqxscC/hare.png",
+        "image": "hare",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The hare raced across the field.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "33",
         "word": "hen",
         "meaning": "মুরগি",
-        "image": "https://i.ibb.co/hK3RYJD/hen.png",
+        "image": "hen",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The hen clucked contentedly in the coop.",
+        "tags": [
+            "bird"
+        ]
     },
     {
         "_id": "34",
         "word": "horse",
         "meaning": "ঘোড়া",
-        "image": "https://i.ibb.co/2yPBdK1/horse.png",
+        "image": "horse-head-2",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The horse galloped across the field.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "35",
         "word": "hyena",
         "meaning": "হায়েনা",
-        "image": "https://i.ibb.co/6RbjsJp/hyena.png",
+        "image": "hyena",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The hyena howled in the night.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "36",
         "word": "kangaroo",
         "meaning": "ক্যাঙ্গারু",
-        "image": "https://i.ibb.co/tH7kck9/kangaroo.png",
+        "image": "kangaroo",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The kangaroo hopped effortlessly.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "37",
         "word": "ladybug",
         "meaning": "ভদ্রমহিলা",
-        "image": "https://i.ibb.co/BB4j8r6/ladybug.png",
+        "image": "ladybug",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The ladybug crawled along the stem of a flower.",
+        "tags": [
+            "insect"
+        ]
     },
     {
         "_id": "38",
         "word": "lion",
         "meaning": "সিংহ",
-        "image": "https://i.ibb.co/8MJwxn0/lion.png",
+        "image": "lion",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The lion roared loudly in the savanna.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "39",
         "word": "mongoose",
         "meaning": "বেজি",
-        "image": "https://i.ibb.co/rF8sqp3/mongoose.png",
+        "image": "mongoose",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The mongoose scurried through the underbrush.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "40",
         "word": "pork",
         "meaning": "শুয়োরের মাংস",
-        "image": "https://i.ibb.co/zJDr0c0/pork.png",
+        "image": "pork",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "Pork is a popular meat in many cuisines.",
+        "tags": [
+            "food"
+        ]
     },
     {
         "_id": "41",
         "word": "rat",
         "meaning": "ইঁদুর",
-        "image": "https://i.ibb.co/GCLnQ5G/mouse.png",
+        "image": "rat",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The rat nibbled on a piece of cheese.",
+        "tags": [
+            "animal",
+            "rodent"
+        ]
     },
     {
         "_id": "42",
         "word": "rhinoceros",
         "meaning": "গন্ডার",
-        "image": "https://i.ibb.co/ZHfthLP/rhinoceros.png",
+        "image": "rhinoceros",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The rhinoceros charged at the intruders.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "43",
         "word": "rubber-duck",
         "meaning": "রাবার হাঁস",
-        "image": "https://i.ibb.co/yNKLQDD/rubber-duck.png",
+        "image": "rubber-duck",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The rubber duck floated in the bathtub.",
+        "tags": [
+            "toy"
+        ]
     },
     {
         "_id": "44",
         "word": "tiger",
         "meaning": "বাঘ",
-        "image": "https://i.ibb.co/0DZs8SB/tiger.png",
+        "image": "tiger",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The tiger prowled through the jungle.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "45",
         "word": "zebra",
         "meaning": "জেব্রা",
-        "image": "https://i.ibb.co/qkH0rjP/zebra.png",
+        "image": "zebra",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The zebra grazed on the grasslands.",
+        "tags": [
+            "animal",
+            "mammal"
+        ]
     },
     {
         "_id": "46",
         "word": "chimpanzee",
         "meaning": "শিম্পাঞ্জি",
-        "image": "https://i.ibb.co/kcSFvtj/chimpanzee.png",
+        "image": "chimpanzee",
         "synonym": [],
         "antonym": [],
-        "sentence": ""
+        "sentence": "The chimpanzee swung from branch to branch.",
+        "tags": [
+            "animal",
+            "mammal",
+            "primate"
+        ]
     }
 ]

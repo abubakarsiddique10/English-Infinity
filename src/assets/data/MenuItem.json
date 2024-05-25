@@ -6,5 +6,21 @@
     {
         "name": "vocabulary",
         "link": "./vocab-categories.html"
+    },
+    {
+        "name": "Reading",
+        "link": "./Reading.html"
+    },
+    {
+        "name": "Writing",
+        "link": "./Writing.html"
+    },
+    {
+        "name": "Listening",
+        "link": "./Listening.html"
+    },
+    {
+        "name": "Speaking",
+        "link": "./Speaking.html"
     }
 ]

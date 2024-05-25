@@ -1,0 +1,86 @@
+[
+    {
+        "_id": "0",
+        "word": "hammer",
+        "meaning": "হাতুড়ি",
+        "image": "hammer",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The carpenter used a hammer to drive the nails into the wood.",
+        "tags": [
+            "tool",
+            "construction",
+            "woodworking"
+        ]
+    },
+    {
+        "_id": "1",
+        "word": "axe",
+        "meaning": "কুঠার",
+        "image": "axe",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The lumberjack used an axe to chop down the tree.",
+        "tags": [
+            "tool",
+            "woodcutting",
+            "forestry"
+        ]
+    },
+    {
+        "_id": "2",
+        "word": "screwdriver",
+        "meaning": "স্ক্রুড্রাইভার",
+        "image": "screwdriver",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She used a screwdriver to tighten the screws on the furniture.",
+        "tags": [
+            "tool",
+            "mechanical",
+            "assembly"
+        ]
+    },
+    {
+        "_id": "3",
+        "word": "wrench",
+        "meaning": "কুঞ্জি",
+        "image": "wrench",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The mechanic used a wrench to tighten the bolts.",
+        "tags": [
+            "tool",
+            "mechanical",
+            "repair"
+        ]
+    },
+    {
+        "_id": "4",
+        "word": "saw",
+        "meaning": "আর",
+        "image": "saw",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "He used a saw to cut the wooden plank into smaller pieces.",
+        "tags": [
+            "tool",
+            "woodworking",
+            "construction"
+        ]
+    },
+    {
+        "_id": "5",
+        "word": "drill",
+        "meaning": "বোর",
+        "image": "drill",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The worker used a drill to bore holes in the wall.",
+        "tags": [
+            "tool",
+            "construction",
+            "woodworking"
+        ]
+    }
+]

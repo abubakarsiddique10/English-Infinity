@@ -4,10 +4,6 @@
         "img": "./assets/images/icons/vegetables.png"
     },
     {
-        "name": "business",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
         "name": "education",
         "img": "./assets/images/icons/vegetables.png"
     },
@@ -25,30 +21,6 @@
     },
     {
         "name": "colors",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
-        "name": "body parts",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
-        "name": "birds",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
-        "name": "flowers",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
-        "name": "clothes",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
-        "name": "profession",
-        "img": "./assets/images/icons/vegetables.png"
-    },
-    {
-        "name": "relatives",
         "img": "./assets/images/icons/vegetables.png"
     },
     {

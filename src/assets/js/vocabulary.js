@@ -3,10 +3,11 @@ const queryParams = new URLSearchParams(window.location.search);
 const category = queryParams.get('category');
 import { fetchData } from "./common.js";
 
+const getCategoryInHTML = document.querySelector('.categories');
+getCategoryInHTML.innerHTML = category
 
 // Load vocabularies for a given category
 async function getVocabulary() {
-    console.log(category)
     const url = `././assets/data/${category}.json`;
     try {
         const vocabularies = await fetchData(url);
@@ -27,6 +28,30 @@ const displayVocabularies = (vocabularies) => {
     });
 }
 
+
+
+// Create a vocabulary card element: card-
+const createVocabulariesCard = (vocabulary) => {
+    const vocabularyCard = document.createElement('div');
+    vocabularyCard.innerHTML = `
+        <article class="min-h-[160px] flex  rounded-md border border-[#F0F1F3]" title="Click for details about ${vocabulary.word}">
+            <button class="px-3 pt-8 pb-4 flex flex-col items-center w-full ">
+               <i class="icofont-${vocabulary.image} text-4xl text-[#183153]"></i>
+                <span class="mt-5 text-lg font-normal leading-6 capitalize text-center">
+                    ${vocabulary.word}
+                </span>
+                <span class="mt-1 text-sm first-letter:capitalize">carrot is a healtht food</span>
+            </button>
+        </article>
+    `;
+    return vocabularyCard
+}
+
+
+
+
+
+
 // Create a vocabulary card element: card-one
 /* const createVocabulariesCard = (vocabulary) => {
     const vocabularyCard = document.createElement('div');
@@ -45,13 +70,15 @@ const displayVocabularies = (vocabularies) => {
     return vocabularyCard
 } */
 
-// Create a vocabulary card element: card-
-const createVocabulariesCard = (vocabulary) => {
+
+
+// vocabulary template two
+/* const createVocabulariesCard = (vocabulary) => {
     const vocabularyCard = document.createElement('div');
     vocabularyCard.innerHTML = `
         <article class="min-h-[160px] flex  rounded-md border border-[#F0F1F3]" title="Click for details about ${vocabulary.word}">
             <button class="px-3 pt-8 pb-4 flex flex-col items-center w-full ">
-                <img class="w-9 block" src="./assets/images/vocabulary/food/${vocabulary.image}.svg"alt="${vocabulary.word}">
+                <img class="w-9 block " src="./assets/images/vocabulary/food/${vocabulary.image}.svg"alt="${vocabulary.word}">
                 <span class="mt-5 text-lg font-normal leading-6 capitalize text-center">
                     ${vocabulary.word}
                 </span>
@@ -60,16 +87,4 @@ const createVocabulariesCard = (vocabulary) => {
         </article>
     `;
     return vocabularyCard
-}
-
-
-
-
-
-
-/* const seeMoreButton = vocabularyCard.querySelector('button');
-seeMoreButton.addEventListener('click', () => {
-    // Handle "See More" button click
-    // Example: Redirect to a details page
-    // window.location.href = `details.html?id=${vocabulary.id}`;
-}); */
+} */

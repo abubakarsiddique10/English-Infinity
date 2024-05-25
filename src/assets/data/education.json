@@ -1,0 +1,407 @@
+[
+    {
+        "_id": "0",
+        "word": "teacher",
+        "meaning": "শিক্ষক",
+        "image": "teacher",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The teacher told us a funny story.",
+        "tags": [
+            "education",
+            "profession"
+        ]
+    },
+    {
+        "_id": "1",
+        "word": "textbook",
+        "meaning": "পাঠ্যবই",
+        "image": "textbook",
+        "synonym": [
+            "coursebook"
+        ],
+        "antonym": [],
+        "sentence": "The textbook contains all the necessary information for the course.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "2",
+        "word": "student",
+        "meaning": "ছাত্র/ছাত্রী",
+        "image": "student",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The student scored the highest marks in the class.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "3",
+        "word": "school",
+        "meaning": "স্কুল",
+        "image": "school",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She goes to a private school.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "4",
+        "word": "college",
+        "meaning": "কলেজ",
+        "image": "college",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "He graduated from a prestigious college.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "5",
+        "word": "university",
+        "meaning": "বিশ্ববিদ্যালয়",
+        "image": "university",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She attends a renowned university.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "6",
+        "word": "classroom",
+        "meaning": "শ্রেণীকক্ষ",
+        "image": "classroom",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The classroom was spacious and well-lit.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "7",
+        "word": "lesson",
+        "meaning": "পাঠ",
+        "image": "lesson",
+        "synonym": [
+            "lecture",
+            "session"
+        ],
+        "antonym": [],
+        "sentence": "She prepared diligently for her lesson.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "8",
+        "word": "homework",
+        "meaning": "গৃহকার্য",
+        "image": "homework",
+        "synonym": [
+            "assignment"
+        ],
+        "antonym": [],
+        "sentence": "He always completes his homework on time.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "9",
+        "word": "test",
+        "meaning": "পরীক্ষা",
+        "image": "test",
+        "synonym": [
+            "exam",
+            "assessment"
+        ],
+        "antonym": [],
+        "sentence": "She studied hard for the test.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "10",
+        "word": "grade",
+        "meaning": "শ্রেণী",
+        "image": "grade",
+        "synonym": [
+            "level",
+            "class"
+        ],
+        "antonym": [],
+        "sentence": "He received an A grade in math.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "11",
+        "word": "principal",
+        "meaning": "প্রধান শিক্ষক",
+        "image": "principal",
+        "synonym": [
+            "headmaster",
+            "headmistress"
+        ],
+        "antonym": [],
+        "sentence": "The principal addressed the students during assembly.",
+        "tags": [
+            "education",
+            "profession"
+        ]
+    },
+    {
+        "_id": "12",
+        "word": "syllabus",
+        "meaning": "পাঠ্যসূচি",
+        "image": "syllabus",
+        "synonym": [
+            "curriculum"
+        ],
+        "antonym": [],
+        "sentence": "The syllabus for this semester includes various topics.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "13",
+        "word": "subject",
+        "meaning": "বিষয়",
+        "image": "subject",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Math is her favorite subject.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "14",
+        "word": "lecture",
+        "meaning": "লেকচার",
+        "image": "lecture",
+        "synonym": [
+            "lesson",
+            "class"
+        ],
+        "antonym": [],
+        "sentence": "The professor gave an informative lecture on history.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "15",
+        "word": "textbook",
+        "meaning": "পাঠ্যবই",
+        "image": "textbook",
+        "synonym": [
+            "coursebook"
+        ],
+        "antonym": [],
+        "sentence": "The textbook contains all the necessary information for the course.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "16",
+        "word": "library",
+        "meaning": "লাইব্রেরি",
+        "image": "library",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "He spends hours studying in the library.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "17",
+        "word": "knowledge",
+        "meaning": "জ্ঞান",
+        "image": "knowledge",
+        "synonym": [
+            "information",
+            "understanding"
+        ],
+        "antonym": [],
+        "sentence": "Reading books broadens your knowledge.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "18",
+        "word": "learning",
+        "meaning": "শেখা",
+        "image": "learning",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Continuous learning is important for personal development.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "19",
+        "word": "degree",
+        "meaning": "ডিগ্রি",
+        "image": "degree",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She earned a bachelor's degree in psychology.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "20",
+        "word": "scholarship",
+        "meaning": "বৃত্তি",
+        "image": "scholarship",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "He received a scholarship for his outstanding academic performance.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "21",
+        "word": "assignment",
+        "meaning": "অ্যাসাইনমেন্ট",
+        "image": "assignment",
+        "synonym": [
+            "homework",
+            "task"
+        ],
+        "antonym": [],
+        "sentence": "The professor assigned a challenging assignment to the students.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "22",
+        "word": "classmate",
+        "meaning": "শ্রেণীবন্ধু",
+        "image": "classmate",
+        "synonym": [
+            "peer",
+            "fellow student"
+        ],
+        "antonym": [],
+        "sentence": "She discussed the project with her classmates.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "23",
+        "word": "diploma",
+        "meaning": "ডিপ্লোমা",
+        "image": "diploma",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "He received a diploma in computer science.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "24",
+        "word": "lecture hall",
+        "meaning": "লেকচার হল",
+        "image": "lecture hall",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The lecture hall was packed with students.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "25",
+        "word": "tutor",
+        "meaning": "শিক্ষক",
+        "image": "tutor",
+        "synonym": [
+            "instructor",
+            "mentor"
+        ],
+        "antonym": [],
+        "sentence": "She hired a tutor to help her with math.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "26",
+        "word": "classroom management",
+        "meaning": "শ্রেণীকক্ষ ব্যবস্থাপনা",
+        "image": "classroom management",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Effective classroom management is crucial for a productive learning environment.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "27",
+        "word": "curriculum",
+        "meaning": "পাঠ্যক্রম",
+        "image": "curriculum",
+        "synonym": [
+            "syllabus",
+            "program"
+        ],
+        "antonym": [],
+        "sentence": "The curriculum covers a wide range of subjects.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "28",
+        "word": "faculty",
+        "meaning": "শিক্ষক দল",
+        "image": "faculty",
+        "synonym": [
+            "staff",
+            "teaching staff"
+        ],
+        "antonym": [],
+        "sentence": "The faculty members are highly experienced.",
+        "tags": [
+            "education"
+        ]
+    },
+    {
+        "_id": "29",
+        "word": "attendance",
+        "meaning": "উপস্থিতি",
+        "image": "",
+        "synonym": [
+            "presence"
+        ],
+        "antonym": [],
+        "sentence": "Regular attendance is required for all students.",
+        "tags": [
+            "education"
+        ]
+    }
+]

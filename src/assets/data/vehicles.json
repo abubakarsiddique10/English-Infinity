@@ -1,0 +1,251 @@
+[
+    {
+        "_id": "0",
+        "word": "airplane",
+        "meaning": "বিমান",
+        "image": "airplane",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The airplane cracked up in landing.",
+        "tags": [
+            "air",
+            "travel",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "1",
+        "word": "car",
+        "meaning": "গাড়ি",
+        "image": "car",
+        "synonym": [
+            "automobile",
+            "vehicle",
+            "auto"
+        ],
+        "antonym": [],
+        "sentence": "She drove her new car to work.",
+        "tags": [
+            "road",
+            "personal",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "2",
+        "word": "bicycle",
+        "meaning": "সাইকেল",
+        "image": "bicycle",
+        "synonym": [
+            "bike",
+            "cycle"
+        ],
+        "antonym": [],
+        "sentence": "I ride my bicycle to school every day.",
+        "tags": [
+            "pedal",
+            "exercise",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "3",
+        "word": "bus",
+        "meaning": "বাস",
+        "image": "bus-alt-2",
+        "synonym": [
+            "coach",
+            "transit"
+        ],
+        "antonym": [],
+        "sentence": "The bus arrived late, causing many commuters to be delayed.",
+        "tags": [
+            "public",
+            "mass",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "4",
+        "word": "train",
+        "meaning": "ট্রেন",
+        "image": "train-line",
+        "synonym": [
+            "railway",
+            "locomotive"
+        ],
+        "antonym": [],
+        "sentence": "We took the train to the city for the concert.",
+        "tags": [
+            "rail",
+            "public",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "5",
+        "word": "motorcycle",
+        "meaning": "মোটরসাইকেল",
+        "image": "motor-bike",
+        "synonym": [
+            "bike",
+            "motorbike"
+        ],
+        "antonym": [],
+        "sentence": "He rides his motorcycle to work every day, rain or shine.",
+        "tags": [
+            "two-wheeler",
+            "motorized",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "6",
+        "word": "truck",
+        "meaning": "ট্রাক",
+        "image": "truck",
+        "synonym": [
+            "lorry"
+        ],
+        "antonym": [],
+        "sentence": "The truck delivered a shipment of goods to the warehouse.",
+        "tags": [
+            "cargo",
+            "haulage",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "7",
+        "word": "boat",
+        "meaning": "নৌকা",
+        "image": "sail-boat",
+        "synonym": [
+            "ship",
+            "vessel"
+        ],
+        "antonym": [],
+        "sentence": "We went fishing in a small boat on the lake.",
+        "tags": [
+            "water",
+            "marine",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "8",
+        "word": "helicopter",
+        "meaning": "হেলিকপ্টার",
+        "image": "helicopter",
+        "synonym": [
+            "chopper"
+        ],
+        "antonym": [],
+        "sentence": "The helicopter flew low over the city, providing an aerial view.",
+        "tags": [
+            "air",
+            "rotary-wing",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "10",
+        "word": "van",
+        "meaning": "ভ্যান",
+        "image": "van",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "We rented a van to move our furniture to the new house.",
+        "tags": [
+            "cargo",
+            "transportation",
+            "utility"
+        ]
+    },
+    {
+        "_id": "11",
+        "word": "tractor",
+        "meaning": "ট্র্যাক্টর",
+        "image": "tractor",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The farmer used a tractor to plow the fields.",
+        "tags": [
+            "farm",
+            "agriculture",
+            "vehicle"
+        ]
+    },
+    {
+        "_id": "12",
+        "word": "scooter",
+        "meaning": "স্কুটার",
+        "image": "scooter",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She rides her scooter to school every day.",
+        "tags": [
+            "two-wheeler",
+            "motorized",
+            "personal"
+        ]
+    },
+    {
+        "_id": "13",
+        "word": "ambulance",
+        "meaning": "অ্যাম্বুলেন্স",
+        "image": "ambulance",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The ambulance rushed the injured to the hospital.",
+        "tags": [
+            "emergency",
+            "medical",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "14",
+        "word": "firetruck",
+        "meaning": "অগ্নিশমন গাড়ি",
+        "image": "fire-truck-alt",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The firetruck arrived quickly to extinguish the blaze.",
+        "tags": [
+            "emergency",
+            "firefighting",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "15",
+        "word": "taxi",
+        "meaning": "ট্যাক্সি",
+        "image": "taxi",
+        "synonym": [
+            "cab"
+        ],
+        "antonym": [],
+        "sentence": "She hailed a taxi to take her to the airport.",
+        "tags": [
+            "transportation",
+            "public",
+            "service"
+        ]
+    },
+    {
+        "_id": "17",
+        "word": "yacht",
+        "meaning": "ইয়ট",
+        "image": "yacht",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "He spent the weekend sailing his yacht along the coast.",
+        "tags": [
+            "luxury",
+            "water",
+            "recreation"
+        ]
+    }
+]

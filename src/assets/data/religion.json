@@ -1,0 +1,222 @@
+[
+    {
+        "_id": "0",
+        "word": "almighty",
+        "meaning": "সর্বশক্তিমান",
+        "image": "almighty",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Allah is great",
+        "tags": []
+    },
+    {
+        "_id": "1",
+        "word": "faith",
+        "meaning": "বিশ্বাস",
+        "image": "faith",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She has strong faith in her religion.",
+        "tags": []
+    },
+    {
+        "_id": "2",
+        "word": "worship",
+        "meaning": "পূজা",
+        "image": "worship",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "They go to the temple every Sunday to worship.",
+        "tags": []
+    },
+    {
+        "_id": "3",
+        "word": "blessing",
+        "meaning": "আশীর্বাদ",
+        "image": "blessing",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Receiving her father's blessing meant a lot to her.",
+        "tags": []
+    },
+    {
+        "_id": "4",
+        "word": "prayer",
+        "meaning": "প্রার্থনা",
+        "image": "prayer",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She starts her day with a morning prayer.",
+        "tags": []
+    },
+    {
+        "_id": "5",
+        "word": "belief",
+        "meaning": "বিশ্বাস",
+        "image": "belief",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Their belief in the afterlife is strong.",
+        "tags": []
+    },
+    {
+        "_id": "6",
+        "word": "sacred",
+        "meaning": "পবিত্র",
+        "image": "sacred",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The river is considered sacred by the local community.",
+        "tags": []
+    },
+    {
+        "_id": "7",
+        "word": "holy",
+        "meaning": "পবিত্র",
+        "image": "holy",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Jerusalem is a holy city for Jews, Christians, and Muslims alike.",
+        "tags": []
+    },
+    {
+        "_id": "8",
+        "word": "ritual",
+        "meaning": "অনুষ্ঠান",
+        "image": "ritual",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "They perform a purification ritual before entering the temple.",
+        "tags": []
+    },
+    {
+        "_id": "9",
+        "word": "divine",
+        "meaning": "দেবীয়",
+        "image": "divine",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The stars were thought to possess divine powers.",
+        "tags": []
+    },
+    {
+        "_id": "10",
+        "word": "soul",
+        "meaning": "আত্মা",
+        "image": "soul",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "After death, it is believed that the soul leaves the body.",
+        "tags": []
+    },
+    {
+        "_id": "11",
+        "word": "sin",
+        "meaning": "পাপ",
+        "image": "sin",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "In many religions, it is believed that committing a sin leads to punishment.",
+        "tags": []
+    },
+    {
+        "_id": "12",
+        "word": "heaven",
+        "meaning": "স্বর্গ",
+        "image": "heaven",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "According to some religions, righteous souls go to heaven after death.",
+        "tags": []
+    },
+    {
+        "_id": "13",
+        "word": "hell",
+        "meaning": "পাতাল",
+        "image": "hell",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "In certain religious beliefs, sinners are condemned to hell.",
+        "tags": []
+    },
+    {
+        "_id": "14",
+        "word": "prophet",
+        "meaning": "নবী",
+        "image": "prophet",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Moses is considered a prophet in Judaism, Christianity, and Islam.",
+        "tags": []
+    },
+    {
+        "_id": "15",
+        "word": "temple",
+        "meaning": "মন্দির",
+        "image": "temple",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The temple is a place of worship for Hindus.",
+        "tags": []
+    },
+    {
+        "_id": "16",
+        "word": "church",
+        "meaning": "গির্জা",
+        "image": "church",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "They attend church services every Sunday.",
+        "tags": []
+    },
+    {
+        "_id": "17",
+        "word": "mosque",
+        "meaning": "মসজিদ",
+        "image": "mosque",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Muslims gather at the mosque for Friday prayers.",
+        "tags": []
+    },
+    {
+        "_id": "18",
+        "word": "holy book",
+        "meaning": "পবিত্র বই",
+        "image": "holy_book",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The Quran is the holy book of Islam.",
+        "tags": []
+    },
+    {
+        "_id": "19",
+        "word": "religion",
+        "meaning": "ধর্ম",
+        "image": "religion",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "There are many different religions practiced around the world.",
+        "tags": []
+    },
+    {
+        "_id": "20",
+        "word": "ritual",
+        "meaning": "রুটিন",
+        "image": "ritual",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Performing ablutions is a daily ritual for Muslims.",
+        "tags": []
+    },
+    {
+        "_id": "21",
+        "word": "fast",
+        "meaning": "উপবাস করা",
+        "image": "fast",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "During Ramadan, Muslims fast from dawn until sunset.",
+        "tags": []
+    }
+]
