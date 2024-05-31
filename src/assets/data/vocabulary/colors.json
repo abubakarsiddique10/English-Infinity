@@ -1,0 +1,254 @@
+[
+    {
+        "_id": "0",
+        "word": "black",
+        "meaning": "কালো",
+        "image": "black",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The kettle calls the pot black",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "1",
+        "word": "white",
+        "meaning": "সাদা",
+        "image": "white",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She wore a beautiful white dress.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "2",
+        "word": "red",
+        "meaning": "লাল",
+        "image": "red",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The rose is red.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "3",
+        "word": "blue",
+        "meaning": "নীল",
+        "image": "blue",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The sky is blue.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "4",
+        "word": "green",
+        "meaning": "সবুজ",
+        "image": "green",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The grass is green.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "5",
+        "word": "yellow",
+        "meaning": "হলুদ",
+        "image": "yellow",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The sunflower is yellow.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "6",
+        "word": "orange",
+        "meaning": "কমলা",
+        "image": "orange",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "He wore an orange tie.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "7",
+        "word": "purple",
+        "meaning": "বেগুনি",
+        "image": "purple",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The curtains are purple.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "8",
+        "word": "pink",
+        "meaning": "গোলাপি",
+        "image": "pink",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Her favorite color is pink.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "9",
+        "word": "brown",
+        "meaning": "বাদামি",
+        "image": "brown",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The bear is brown.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "10",
+        "word": "gray",
+        "meaning": "ধূসর",
+        "image": "gray",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "His hair is gray.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "11",
+        "word": "turquoise",
+        "meaning": "ফেরোজা",
+        "image": "turquoise",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She decorated the room with turquoise curtains.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "12",
+        "word": "violet",
+        "meaning": "বেগুনি",
+        "image": "violet",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Violet flowers bloomed in the garden.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "13",
+        "word": "maroon",
+        "meaning": "মেরুন",
+        "image": "maroon",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She painted her room walls maroon.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "14",
+        "word": "beige",
+        "meaning": "বেজ",
+        "image": "beige",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The sofa was a soft beige color.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "15",
+        "word": "cyan",
+        "meaning": "সায়ান",
+        "image": "cyan",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "Cyan is often used in printing.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "16",
+        "word": "indigo",
+        "meaning": "নীল",
+        "image": "indigo",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The indigo dye was used to color the fabric.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "17",
+        "word": "silver",
+        "meaning": "রুপা",
+        "image": "silver",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The moonlight reflected on the water, making it appear silver.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "18",
+        "word": "gold",
+        "meaning": "সোনা",
+        "image": "gold",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She wore a necklace made of gold.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "19",
+        "word": "burgundy",
+        "meaning": "বাদামি রং",
+        "image": "burgundy",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The wine had a deep burgundy color.",
+        "tags": [
+            "color"
+        ]
+    },
+    {
+        "_id": "20",
+        "word": "magenta",
+        "meaning": "মেজেন্টা",
+        "image": "magenta",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "She painted her nails with magenta polish.",
+        "tags": [
+            "color"
+        ]
+    }
+]

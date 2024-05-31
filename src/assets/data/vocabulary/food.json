@@ -1,0 +1,356 @@
+[
+    {
+        "_id": 39,
+        "word": "apple",
+        "meaning": "আপেল",
+        "image": "apple",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit"
+        ],
+        "sentence": "She ate an apple for a quick snack."
+    },
+    {
+        "_id": 41,
+        "word": "mango",
+        "meaning": "আম",
+        "image": "mango",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit"
+        ],
+        "sentence": "Mangoes are her favorite summer fruit."
+    },
+    {
+        "_id": 6,
+        "word": "carrot",
+        "meaning": "গাজর",
+        "image": "f-carrot",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_comment": "start vegetable vocabulary",
+        "_id": 0,
+        "word": "cabbage",
+        "meaning": "বাঁধাকপি",
+        "image": "cabbage",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 1,
+        "word": "cauliflower",
+        "meaning": "ফুলকপি",
+        "image": "cauliflower",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_comment": "start food vocabulary",
+        "_id": 40,
+        "word": "grape",
+        "meaning": "আঙ্গুর",
+        "image": "grapes",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit"
+        ],
+        "sentence": "She bought a bunch of grapes from the market."
+    },
+    {
+        "_id": 8,
+        "word": "strawberry",
+        "meaning": "স্ট্রবেরি",
+        "image": "strawberry",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit",
+            "berry",
+            "sweet"
+        ],
+        "sentence": "She added fresh strawberries to her cereal."
+    },
+    {
+        "_id": 2,
+        "word": "mushroom",
+        "meaning": "মাশরুম",
+        "image": "mushroom",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 3,
+        "word": "potato",
+        "meaning": "আলু",
+        "image": "potato",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 4,
+        "word": "tomato",
+        "meaning": "টমেটো",
+        "image": "tomato",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 5,
+        "word": "cucumber",
+        "meaning": "শসা",
+        "image": "cucumber",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 7,
+        "word": "chili",
+        "meaning": "মরিচ",
+        "image": "chili",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 8,
+        "word": "eggplant",
+        "meaning": "বেগুন",
+        "image": "eggplant",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 10,
+        "word": "onion",
+        "meaning": "পেঁয়াজ",
+        "image": "onion",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 12,
+        "word": "pumpkin",
+        "meaning": "মিষ্টি কুমড়া",
+        "image": "pumpkin",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 13,
+        "word": "radish",
+        "meaning": "মূলা",
+        "image": "raddish",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 14,
+        "word": "potato",
+        "meaning": "আলু",
+        "image": "potato",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 18,
+        "word": "broccoli",
+        "meaning": "ব্রকলি",
+        "image": "broccoli",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 21,
+        "word": "corn",
+        "meaning": "ভুট্টা",
+        "image": "corn",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": ""
+    },
+    {
+        "_id": 37,
+        "word": "corn",
+        "meaning": "ভুট্টা",
+        "image": "corn",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "vegetable"
+        ],
+        "sentence": "Corn can be eaten on the cob, as a side dish, or in salads."
+    },
+    {
+        "_id": 42,
+        "word": "pineapple",
+        "meaning": "আনারস",
+        "image": "pineapple",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit"
+        ],
+        "sentence": "He loves the tangy taste of pineapple in his fruit salad."
+    },
+    {
+        "_id": 46,
+        "word": "watermelon",
+        "meaning": "তরমুজ",
+        "image": "watermelon",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit",
+            "melon",
+            "refreshing"
+        ],
+        "sentence": "Watermelon is a great way to stay hydrated in the summer."
+    },
+    {
+        "_id": 54,
+        "word": "coconut",
+        "meaning": "নারিকেল",
+        "image": "coconut",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit",
+            "tropical",
+            "nut"
+        ],
+        "sentence": "Coconut water is a popular drink in many tropical regions."
+    },
+    {
+        "_id": 6,
+        "word": "banana",
+        "meaning": "কলা",
+        "image": "banana",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit",
+            "tropical",
+            "snack"
+        ],
+        "sentence": "He ate a banana after his workout."
+    },
+    {
+        "_id": 6,
+        "word": "lemon",
+        "meaning": "লেবু",
+        "image": "lemon",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit",
+            "tropical",
+            "snack"
+        ],
+        "sentence": "He ate a lemon after his workout."
+    },
+    {
+        "_id": 6,
+        "word": "milk",
+        "meaning": "দুধ",
+        "image": "milk",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit",
+            "tropical",
+            "snack"
+        ],
+        "sentence": "He ate a lemon after his workout."
+    },
+    {
+        "_id": 14,
+        "word": "orange",
+        "meaning": "কমলা",
+        "image": "orange",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit",
+            "citrus",
+            "vitamin C"
+        ],
+        "sentence": "She drank a glass of fresh orange juice."
+    },
+    {
+        "_id": 14,
+        "word": "popcorn",
+        "meaning": "ভুট্টার খই",
+        "image": "popcorn",
+        "synonym": [],
+        "antonym": [],
+        "tags": [
+            "fruit",
+            "citrus",
+            "vitamin C"
+        ],
+        "sentence": "She drank a glass of fresh orange juice."
+    }
+]

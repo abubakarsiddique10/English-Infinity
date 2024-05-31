@@ -1,0 +1,18 @@
+[
+    {
+        "name": "animals",
+        "img": "birds"
+    },
+    {
+        "name": "food",
+        "img": "food"
+    },
+    {
+        "name": "tools",
+        "img": "tools"
+    },
+    {
+        "name": "transport",
+        "img": "transport"
+    }
+]

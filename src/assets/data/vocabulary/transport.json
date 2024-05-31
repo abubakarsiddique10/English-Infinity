@@ -1,0 +1,85 @@
+[
+    {
+        "_id": "0",
+        "word": "airplane",
+        "meaning": "বিমান",
+        "image": "airplane",
+        "synonym": [],
+        "antonym": [],
+        "sentence": "The airplane cracked up in landing.",
+        "tags": [
+            "air",
+            "travel",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "1",
+        "word": "car",
+        "meaning": "গাড়ি",
+        "image": "car",
+        "synonym": [
+            "automobile",
+            "vehicle",
+            "auto"
+        ],
+        "antonym": [],
+        "sentence": "She drove her new car to work.",
+        "tags": [
+            "road",
+            "personal",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "2",
+        "word": "bicycle",
+        "meaning": "সাইকেল",
+        "image": "bicycle",
+        "synonym": [
+            "bike",
+            "cycle"
+        ],
+        "antonym": [],
+        "sentence": "I ride my bicycle to school every day.",
+        "tags": [
+            "pedal",
+            "exercise",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "3",
+        "word": "bus",
+        "meaning": "বাস",
+        "image": "bus",
+        "synonym": [
+            "coach",
+            "transit"
+        ],
+        "antonym": [],
+        "sentence": "The bus arrived late, causing many commuters to be delayed.",
+        "tags": [
+            "public",
+            "mass",
+            "transportation"
+        ]
+    },
+    {
+        "_id": "5",
+        "word": "motorcycle",
+        "meaning": "মোটরসাইকেল",
+        "image": "motorcycle",
+        "synonym": [
+            "bike",
+            "motorbike"
+        ],
+        "antonym": [],
+        "sentence": "He rides his motorcycle to work every day, rain or shine.",
+        "tags": [
+            "two-wheeler",
+            "motorized",
+            "transportation"
+        ]
+    }
+]
