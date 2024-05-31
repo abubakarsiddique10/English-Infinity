@@ -1,10 +1,10 @@
 [
     {
         "name": "presentation",
-        "img": "./assets/images/icons/vegetables.png"
+        "img": "presentation"
     },
     {
         "name": "conversation",
-        "img": "./assets/images/icons/vegetables.png"
+        "img": "conversation"
     }
 ]

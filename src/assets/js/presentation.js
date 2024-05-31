@@ -23,11 +23,14 @@ const displayPresentation = (presentation) => {
 
 // Create a presentation card element
 const createVocabulariesCard = ({ title, content }) => {
-    const truncatedContent = content.length > 200 ? content.slice(0, 200) : content;
+    const truncatedContent = content.length > 250 ? content.slice(0, 250) : content;
     const presentationCard = document.createElement('a');
     presentationCard.innerHTML = `
     <article class="pt-6 pb-8 border-b w-full max-w-[728px] mx-auto">
-        <h2 class="text-xl font-extrabold pb-2 capitalize">${title}</h2>
+        <div class="flex items-center justify-between pb-2 ">
+            <h2 class="text-xl font-extrabold capitalize">${title}</h2>
+            <img class="w-5" src="./assets/images/icons/play-circle.svg" alt="">
+        </div>
         <p class="text-[#242424]">
             <span class="presentationPreview">${truncatedContent}</span>
             <span class="hidden">${content}</span>

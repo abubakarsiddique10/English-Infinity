@@ -33,7 +33,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "Carrot cake is her favorite dessert."
     },
     {
         "_comment": "start vegetable vocabulary",
@@ -46,7 +46,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "Cabbage is a nutritious source of vitamins."
     },
     {
         "_id": 1,
@@ -58,7 +58,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "Cauliflower is rich in vitamins and antioxidants."
     },
     {
         "_comment": "start food vocabulary",
@@ -97,7 +97,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "After the rain, mushrooms sprouted in the damp soil."
     },
     {
         "_id": 3,
@@ -109,7 +109,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "The potato fields stretched out for miles under the blue sky."
     },
     {
         "_id": 4,
@@ -121,7 +121,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "She sliced a ripe tomato for her sandwich."
     },
     {
         "_id": 5,
@@ -133,7 +133,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "he sliced the cucumber thinly for the salad."
     },
     {
         "_id": 7,
@@ -145,7 +145,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "Chili con carne is a popular dish in many regions."
     },
     {
         "_id": 8,
@@ -157,7 +157,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "She grilled slices of eggplant for a healthy dinner."
     },
     {
         "_id": 10,
@@ -169,7 +169,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "She cried while cutting the onion."
     },
     {
         "_id": 12,
@@ -181,7 +181,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "He roasted pumpkin seeds with salt for a tasty snack."
     },
     {
         "_id": 13,
@@ -193,19 +193,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
-    },
-    {
-        "_id": 14,
-        "word": "potato",
-        "meaning": "আলু",
-        "image": "potato",
-        "synonym": [],
-        "antonym": [],
-        "tags": [
-            "vegetable"
-        ],
-        "sentence": ""
+        "sentence": "The radish harvest was bountiful this year."
     },
     {
         "_id": 18,
@@ -217,7 +205,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
+        "sentence": "Broccoli grows best in cool climates."
     },
     {
         "_id": 21,
@@ -229,19 +217,7 @@
         "tags": [
             "vegetable"
         ],
-        "sentence": ""
-    },
-    {
-        "_id": 37,
-        "word": "corn",
-        "meaning": "ভুট্টা",
-        "image": "corn",
-        "synonym": [],
-        "antonym": [],
-        "tags": [
-            "vegetable"
-        ],
-        "sentence": "Corn can be eaten on the cob, as a side dish, or in salads."
+        "sentence": "Farmers plant corn in the spring for a fall harvest."
     },
     {
         "_id": 42,
@@ -323,7 +299,7 @@
             "tropical",
             "snack"
         ],
-        "sentence": "He ate a lemon after his workout."
+        "sentence": "He prefers skim milk because it's lower in fat."
     },
     {
         "_id": 14,
@@ -351,6 +327,6 @@
             "citrus",
             "vitamin C"
         ],
-        "sentence": "She drank a glass of fresh orange juice."
+        "sentence": "He accidentally spilled the popcorn all over the couch."
     }
 ]

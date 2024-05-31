@@ -31,16 +31,16 @@ const displayVocabularies = (vocabularies) => {
 
 
 // Create a vocabulary card element: card-
-const createVocabulariesCard = ({ word, image }) => {
+const createVocabulariesCard = ({ word, image, sentence }) => {
     const vocabularyCard = document.createElement('div');
     vocabularyCard.innerHTML = `
-        <article class="min-h-[160px] flex  rounded-md border border-[#F0F1F3]" title="Click for details about ${word}">
+        <article class="min-h-[160px] h-full flex  rounded-md border border-[#F0F1F3]" title="Click for details about ${word}">
             <button class="px-3 pt-8 pb-4 flex flex-col items-center w-full ">
               <img class="w-12" src="./assets/images/vocabulary/${category}/${image}.svg" alt="${image}">
                 <span class="mt-5 text-lg font-normal leading-6 capitalize text-center">
                     ${word}
                 </span>
-                <span class="mt-1 text-sm first-letter:capitalize">carrot is a healtht food</span>
+                <span class="mt-1 text-sm first-letter:capitalize">${sentence}</span>
             </button>
         </article>
     `;

@@ -6,7 +6,7 @@
         "image": "camel",
         "synonym": [],
         "antonym": [],
-        "sentence": "The camel traveled through the desert.",
+        "sentence": "Camel is called the ship of desert.",
         "tags": [
             "animal",
             "mammal"
@@ -19,7 +19,7 @@
         "image": "cow",
         "synonym": [],
         "antonym": [],
-        "sentence": "The cow gives us milk.",
+        "sentence": "the cow gives us milk.",
         "tags": [
             "animal",
             "mammal"
@@ -32,7 +32,7 @@
         "image": "fox",
         "synonym": [],
         "antonym": [],
-        "sentence": "The fox darted through the bushes.",
+        "sentence": "The clever fox outwitted the hunters.",
         "tags": [
             "animal",
             "mammal"
@@ -58,7 +58,7 @@
         "image": "frog",
         "synonym": [],
         "antonym": [],
-        "sentence": "The frog croaked loudly.",
+        "sentence": "The frog's croak could be heard all night long.",
         "tags": [
             "amphibian"
         ]
@@ -95,7 +95,7 @@
         "image": "elephant",
         "synonym": [],
         "antonym": [],
-        "sentence": "The elephant trumpeted loudly.",
+        "sentence": "We saw a huge elephant at the zoo today.",
         "tags": [
             "animal",
             "mammal"
@@ -108,7 +108,7 @@
         "image": "tiger",
         "synonym": [],
         "antonym": [],
-        "sentence": "The tiger prowled through the jungle.",
+        "sentence": "The tiger crept through the jungle.",
         "tags": [
             "animal",
             "mammal"
@@ -121,7 +121,7 @@
         "image": "rat",
         "synonym": [],
         "antonym": [],
-        "sentence": "The rat nibbled on a piece of cheese.",
+        "sentence": "He bought a new toy for his cat to play with.",
         "tags": [
             "animal",
             "rodent"
@@ -134,7 +134,7 @@
         "image": "snake",
         "synonym": [],
         "antonym": [],
-        "sentence": "The snake slithered through the grass.",
+        "sentence": "The farmer set traps to catch the rats invading his barn.",
         "tags": [
             "reptile"
         ]
