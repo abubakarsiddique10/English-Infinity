@@ -1,12 +1,15 @@
 import { fetchData } from "./common.js";
+import { loading } from "./index.js";
 
 const categoriesContainer = document.getElementById('categories');
 // Function to fetch and display vocabulary categories
 async function fetchCategories() {
+    loading(true);
     const url = `././assets/data/categories/vocab-categories.json`;
     try {
         const categories = await fetchData(url);
-        displayCategories(categories)
+        displayCategories(categories);
+        loading(false);
     } catch (error) {
         console.error('Error fetching categories:', error);
     }
@@ -28,7 +31,7 @@ function createCategoryCard({ name, img }) {
 
     categoryCard.innerHTML = `
     <figure class="w-12 h-12 flex items-center justify-center rounded">
-        <img class="w-8" src="./assets/images/icons/${img}.svg" />
+        <img class="w-7" src="./assets/images/icons/${img}.svg" />
     </figure>
     <h3 class="font-semibold leading-6 text-xl font-['Hind_Siliguri'] text-[#363637] capitalize">
     ${name}

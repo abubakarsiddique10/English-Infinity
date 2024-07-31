@@ -4,15 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://kit.fontawesome.com/f23b08ee3a.js" crossorigin="anonymous"></script> -->
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon/fav-icon.png">
     <link rel="stylesheet" href="./assets/css/tailwind.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-    <title>English Infinity</title>
+    <title>speaking</title>
 </head>
 
-<body>
+<body class="overflow-y-scroll">
     <header id="header" class="fixed w-full top-0 border-b">
         <div class="container xl:!px-0">
             <nav class="lg:flex items-center justify-between py-4 z-10 space-y-2 lg:space-y-0">
@@ -34,22 +33,15 @@
             </nav>
         </div>
     </header>
-
-
     <main>
         <section>
             <div class="container xl:!px-0">
-                <div class="mt-32">
-                    <div class="text-center">
-                        <img class="max-w-[100px] h-[100px] md:max-w-[110px] md:h-[110px] mx-auto"
-                            src="./assets/images/blust/Bust1.png" alt="Vocabulary Categories Image" />
-                        <h2 class="capitalize text-2xl md:text-3xl font-bold font-['Hind_Siliguri']">
-                            Categories
-                            of vocabulary</h2>
+                <div id="content_wrapper" class="mt-24">
+                    <div id="tags">
+                        <!-- tags item will be dynamically inserted here -->
                     </div>
-                    <div id="categories"
-                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 mt-11 mb-4">
-                        <!-- Category cards will be dynamically inserted here -->
+                    <div id="details">
+                        <!-- category item will be dynamically inserted here -->
                     </div>
                 </div>
             </div>
@@ -61,11 +53,19 @@
             <span>Loading...</span>
         </div>
     </div>
-    
 
-    <!-- script -->
+
+
     <script src="./assets/js/index.js" type="module"></script>
-    <script src="./assets/js/vocab-categories.js" type="module"></script>
+    <script src="./assets/js/details.js" type="module"></script>
 </body>
 
 </html>
+
+
+<!-- <div>
+    <p class="text-[#242424] text-justify">
+        <img class="size-28 float-right border ml-4" src="./assets/images/quiz.jpg" alt="">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui deserunt, iste voluptate debitis cumque est voluptatibus dolore numquam facilis adipisci nihil esse, unde error laborum assumenda, soluta perspiciatis explicabo temporibus?
+    </p>
+</div> -->

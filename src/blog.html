@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./assets/css/tailwind.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-    <title>English Infinity</title>
+    <title>Islamic Blog</title>
+
 </head>
 
 <body>
@@ -34,38 +35,31 @@
             </nav>
         </div>
     </header>
-
-
     <main>
         <section>
             <div class="container xl:!px-0">
-                <div class="mt-32">
-                    <div class="text-center">
-                        <img class="max-w-[100px] h-[100px] md:max-w-[110px] md:h-[110px] mx-auto"
-                            src="./assets/images/blust/Bust1.png" alt="Vocabulary Categories Image" />
-                        <h2 class="capitalize text-2xl md:text-3xl font-bold font-['Hind_Siliguri']">
-                            Categories
-                            of vocabulary</h2>
-                    </div>
-                    <div id="categories"
-                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 mt-11 mb-4">
-                        <!-- Category cards will be dynamically inserted here -->
+                <div class="mt-12 lg:mt-20 lg:flex flex-row-reverse justify-between pt-10 lg:pt-0">
+                    
+                    <ul id="tags" class="w-full max-w-[680px] mx-auto lg:ml-6 bg-red-50 sticky top-14 pt-6 lg:top-24 flex  lg:block overflow-auto lg:pt-0 lg:max-w-[368px] lg:border-l lg:h-full lg:pl-10 lg:min-h-10 ">
+                        <!-- Category tags will be dynamically inserted here -->
+                         <button>hello</button>
+                    </ul>
+
+                    <div id="blog" class="mt-5 lg:mt-0 w-full max-w-[680px] mx-auto">
+
                     </div>
                 </div>
             </div>
         </section>
     </main>
-
-    <div id="preloader" class="h-screen w-full bg-white fixed top-0 z-[100] hidden">
-        <div class="w-full h-full flex justify-center items-center">
-            <span>Loading...</span>
-        </div>
-    </div>
-    
-
-    <!-- script -->
     <script src="./assets/js/index.js" type="module"></script>
-    <script src="./assets/js/vocab-categories.js" type="module"></script>
+    <script src="./assets/js/common.js" type="module"></script>
+    <script src="./assets/js/blog.js" type="module"></script>
+    <!-- <script>
+        function bakar () {
+            console.log('bakar')
+        }
+    </script> -->
 </body>
 
 </html>

@@ -12,22 +12,21 @@
 </head>
 
 <body>
-    <header id="header" class="fixed w-full top-0 border border-[#4755691a]">
+    <header id="header" class="fixed w-full top-0 border-b">
         <div class="container xl:!px-0">
             <nav class="lg:flex items-center justify-between py-4 z-10 space-y-2 lg:space-y-0">
                 <div class="flex items-center justify-between">
                     <div class="flex items-center gap-2">
-                        <a class="navbar-brand text-2xl leading-none font-normal z-10 not-italic"
-                            href="index.html">English
-                            Infinity</a>
+                        <a class="navbar-brand text-2xl leading-none font-bold z-10"
+                            href="index.html">English Infinity</a>
                     </div>
                     <button class="navbar-toggler p-0 border-0 lg:hidden" type="button">
                         <img id="open-menu" src="./assets/images/icons/open-menu.svg" alt="">
                         <img id="close-menu" src="./assets/images/icons/close-menu.svg" alt="">
                     </button>
                 </div>
-                <div class="hidden lg:block nav__items">
-                    <ul id="menuItem" class=" flex flex-col lg:flex-row gap-2 lg:gap-0">
+                <div class="hidden lg:block nav__items font-siliguri">
+                    <ul id="menuItem" class=" flex flex-col lg:flex-row lg:space-x-8">
                         <!-- menu item will be dynamically inserted here -->
                     </ul>
                 </div>
@@ -42,8 +41,7 @@
                     <div class="text-center">
                         <img class="max-w-[100px] h-[100px] md:max-w-[110px] md:h-[110px] mx-auto"
                             src="./assets/images/blust/Bust1.png" alt="Vocabulary Categories Image" />
-                        <h2 class="capitalize text-2xl md:text-3xl font-bold font-['Hind_Siliguri']">
-                            english speaking practice topics</h2>
+                        <h2 class="capitalize text-2xl md:text-3xl font-bold font-['Hind_Siliguri']">English Speaking Practice</h2>
                     </div>
                     <div id="categories"
                         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 mt-11 mb-4">
@@ -55,7 +53,11 @@
     </main>
 
 
-
+    <div id="preloader" class="h-screen w-full bg-white fixed top-0 z-[100] hidden">
+        <div class="w-full h-full flex justify-center items-center">
+            <span >Loading...</span>
+        </div>
+    </div>
 
 
     <script src="./assets/js/index.js" type="module"></script>
