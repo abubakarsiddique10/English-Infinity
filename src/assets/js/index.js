@@ -72,6 +72,20 @@ const createMenuItem = (item) => {
 }
 /* NAVBAR END */
 
+/* section vocabulary start */
+const vocabularySlider = document.querySelector('#vocabulary_slider');
+const rightArrow = document.querySelector('#right_arrow');
+const leftArrow = document.querySelector('#left_arrow');
+rightArrow.addEventListener('click', () => {
+    vocabularySlider.scrollLeft = vocabularySlider.scrollLeft + 196;
+    
+})
+leftArrow.addEventListener('click', () => {
+    vocabularySlider.scrollLeft = vocabularySlider.scrollLeft - 196;
+    
+})
+/* section vocabulary end */
+
 
 // loading sppiner
 function loading (value) {

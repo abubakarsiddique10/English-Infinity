@@ -28,13 +28,13 @@ function displayCategories(catagories) {
 // Function to create a category card element
 function createCategoryCard({ name, img }) {
     const categoryCard = document.createElement('div');
-    categoryCard.classList = 'category-card flex items-center gap-1.5 shadow-3xl px-1 pr-1.5 sm:pr-1 cursor-pointer select-none';
+    categoryCard.classList = 'category-card flex items-center gap-4 shadow-3xl p-4 py-3.5 cursor-pointer select-none rounded';
     categoryCard.setAttribute("data-type", `${name}`)
     categoryCard.innerHTML = `
-    <figure class="w-12 h-12 flex items-center justify-center rounded">
-        <img class="w-6" src="./assets/images/icons/${img}.svg" />
+    <figure class="w-7 flex items-center justify-center rounded">
+        <img class="w-full" src="./assets/images/icons/${img}.svg" />
     </figure>
-    <h3 class="font-semibold leading-6 text-xl font-['Hind_Siliguri'] text-[#363637] capitalize">
+    <h3 class="font-semibold leading-6 text-xl font-['Hind_Siliguri'] text-[#2a2a52] capitalize">
     ${name}
     </h3>
     `
