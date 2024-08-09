@@ -1,6 +1,5 @@
 const queryParams = new URLSearchParams(window.location.search);
-const speechSynthesis = window.speechSynthesis;
-const utterance = new SpeechSynthesisUtterance();
+
 
 const category = queryParams.get('category');
 import { fetchData } from "./common.js";
@@ -48,26 +47,26 @@ const displayPresentation = (presentation) => {
         const presentationCardElement = createPresentationCard(item);
         innerContainer.appendChild(presentationCardElement)
     });
-    detailsContainer.appendChild(innerContainer)
+    detailsContainer.appendChild(innerContainer);
 }
 
 // Create a presentation card element
 const createPresentationCard = ({ title, content, id}) => {
     const truncatedContent = content.length > 300 ? content.slice(0, 300) : content;
     const presentationCard = document.createElement('article');
-    presentationCard.className = "py-6 border-b w-full";
+    presentationCard.className = "py-6 border-b w-full article";
     presentationCard.innerHTML = `
         <div class="flex items-center justify-between pb-2 ">
             <h2 class="text-xl font-extrabold capitalize">${title}</h2>
             <div>
                 <button id="speak" data-id='${id}'>
-                    <img class="w-5" src="./assets/images/icons/play-circle.svg" alt="">
+                    <img class="w-5 play" src="./assets/images/icons/play-circle.svg" alt="">
+                    <img class="w-5 pause hidden" src="./assets/images/icons/pause-circle.svg" alt="">
                 </button>
             </div>
         </div>
         <div>
-           <p class="text-[#242424] text-justify">
-           <img class="size-[90px] float-right ml-4" src="./assets/images/quiz.jpg" alt="">
+           <p class="text-[#242424]">
             <span>${truncatedContent}</span>
             <span class="hidden">${content}</span>
             <button class="presentationBtn text-[#108a00]">...Read more</button>  
@@ -184,19 +183,52 @@ tags.addEventListener('click', handleTagClick);
 
 
 
+const speechSynthesis = window.speechSynthesis;
+const utterance = new SpeechSynthesisUtterance();
+
 function speak () {
     const presentationContainer = document.getElementById('details');
+
     presentationContainer.addEventListener('click', (event) => {
-        const speakButton = event.target.closest('#speak');
-        const dataId = speakButton.dataset.id;
-        if(speakButton) {
-            const findTextContent = allData.find(({id}) => id == dataId);
-            utterance.text = findTextContent.content;
-            speechSynthesis.speak(utterance);
+    const speakButton = event.target.closest('#speak');
+    const isPlay = event.target.classList.contains('play');
+    const isPause = event.target.classList.contains('pause');
+
+    const dataId = speakButton.dataset.id;
+;
+
+    if(isPlay) {
+        event.target.classList.add('hidden');
+        event.target.nextElementSibling.classList.remove('hidden');
+
+        speechSynthesis.cancel();
+
+        const allPause = document.querySelectorAll('.pause');
+        const allPlay = document.querySelectorAll('.play');
+        allPlay.forEach((element) => element.classList.remove('hidden'))
+        allPause.forEach((element) => element.classList.add('hidden'))
+
+        event.target.classList.add('hidden')
+        event.target.nextElementSibling.classList.remove('hidden');
+                
+        const findTextContent = allData.find(({id}) => id == dataId);
+        utterance.text = findTextContent.content;
+        speechSynthesis.speak(utterance);
+            
+
+        }else if(isPause) {
+            event.target.classList.add('hidden');
+            event.target.previousElementSibling.classList.remove('hidden');
+
+            speechSynthesis.cancel();
         }
-    })
+    }) 
 }
 speak()
+
+
+
+
 /* conversation template end */
 
 // Initialize the application

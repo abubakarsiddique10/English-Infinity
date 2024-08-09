@@ -5,17 +5,24 @@
             "id": 1,
             "title": "my daily routine",
             "tag": "basic",
-            "content": "I have a daily routine. I do everything according to this routing. I get up early in the morning. I wash my face. Then I have breakfast. after breakfast, I brush my teeth and go to school. in the afternoon, I do my homework. Then I play with friends. In the evening, I study for some time. Then I watch TV. after supper, I go to be. I have a daily routine. I do everything according to this routing. I have a daily routine. I do everything according to this routing. I get up early in the morning. I wash my face. Then I have breakfast. after breakfast, I brush my teeth and go to school. in the afternoon, I do my homework. Then I play with friends. In the evening, I study for some time. Then I watch TV. after supper, I go to be. I have a daily routine. I do everything according to this routing."
+            "content": "I have a daily routine. I do everything according to this routing. I get up early in the morning."
         },
         {
+            "id": 2,
             "title": "my daily routine",
             "tag": "advance",
-            "content": "I have a daily routine. I do everything according to this routing. I get up early in the morning. I wash my face. Then I have breakfast. after breakfast, I brush my teeth and go to school. in the afternoon, I do my homework. Then I play with friends. In the evening, I study for some time. Then I watch TV. after supper, I go to be. I have a daily routine. I do everything according to this routing. hello world"
+            "content": " In the evening, I study for some time. Then I watch TV. after supper, I go to be"
         },
         {
             "title": "my daily routine",
             "tag": "advance",
             "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam eaque, dolor temporibus rerum nam dolorem? Numquam explicabo deleniti facere distinctio ipsum esse consequuntur dolor minima non corrupti, ratione earum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate totam eaque, dolor temporibus rerum nam dolorem? Numquam explicabo deleniti facere distinctio ipsum esse consequuntur dolor minima non corrupti, ratione earum!"
+        },
+        {
+            "id": 1,
+            "title": "my daily routine",
+            "tag": "basic",
+            "content": "I have a daily routine. I do everything according to this routing. I get up early in the morning. I wash my face. Then I have breakfast. after breakfast, I brush my teeth and go to school. in the afternoon, I do my homework. Then I play with friends. In the evening, I study for some time. Then I watch TV. after supper, I go to be. I have a daily routine. I do everything according to this routing. I have a daily routine. I do everything according to this routing. I get up early in the morning. I wash my face. Then I have breakfast. after breakfast, I brush my teeth and go to school. in the afternoon, I do my homework. Then I play with friends. In the evening, I study for some time. Then I watch TV. after supper, I go to be. I have a daily routine. I do everything according to this routing."
         }
     ]
     
