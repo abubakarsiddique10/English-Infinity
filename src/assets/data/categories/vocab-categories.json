@@ -1,7 +1,7 @@
 [
     {
         "name": "animals",
-        "img": "birds"
+        "img": "animals"
     },
     {
         "name": "food",
@@ -12,7 +12,7 @@
         "img": "tools"
     },
     {
-        "name": "transport",
-        "img": "transport"
+        "name": "vehicles",
+        "img": "vehicles"
     }
 ]

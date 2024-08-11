@@ -1,11 +1,9 @@
 const queryParams = new URLSearchParams(window.location.search);
-
-
 const category = queryParams.get('category');
 import { fetchData } from "./common.js";
 import { loading } from "./index.js";
 
-let allData = null
+let allData = null;
 
 // Fetch presentation data and initialize the display
 async function getPresentation() {
@@ -18,7 +16,7 @@ async function getPresentation() {
             allData = response[1];
             dispayTag(response[0]);
             loading(false)
-        } else if(category === "presentation") {
+        } else if(category === "speakingtopics") {
             displayPresentation(response[1]);
             allData = response[1];
             dispayTag(response[0]);

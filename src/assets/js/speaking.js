@@ -49,7 +49,8 @@ const setupCategoryClickListener = () => {
         const categoryCard = event.target.closest('.category-card');
         if (categoryCard) {
             const category = categoryCard.dataset.type;
-            window.location.href = "details.html?category=" + category;
+            const splitCategory = category.split(' ').join('');
+            window.location.href = "details.html?category=" + splitCategory;
         }
     });
 }
