@@ -1,5 +1,5 @@
 import { fetchData } from "./common.js";
-import { loading } from "./index.js";
+import { loading } from "./main.js";
 
 const categoriesContainer = document.getElementById('categories');
 // Function to fetch and display vocabulary categories
@@ -50,7 +50,7 @@ const setupCategoryClickListener = () => {
         if (categoryCard) {
             const category = categoryCard.dataset.type;
             const splitCategory = category.split(' ').join('');
-            window.location.href = "details.html?category=" + splitCategory;
+            window.location.href = "speaking-details.html?category=" + splitCategory;
         }
     });
 }

@@ -1,7 +1,7 @@
 const queryParams = new URLSearchParams(window.location.search);
 const category = queryParams.get('category');
 import { fetchData } from "./common.js";
-import { loading } from "./index.js";
+import { loading } from "./main.js";
 
 let allData = null;
 
@@ -14,12 +14,17 @@ async function getPresentation() {
         if(category === "conversation") {
             displayConversation(response[1]);
             allData = response[1];
-            dispayTag(response[0]);
+            displayTag(response[0]);
             loading(false)
-        } else if(category === "speakingtopics") {
+        } else if(category === "speakingtopics" || category === "presentation") {
             displayPresentation(response[1]);
             allData = response[1];
-            dispayTag(response[0]);
+            displayTag(response[0]);
+            loading(false)
+        } else if(category === "dailyusesentences") {
+            displayDailyUseSentences(response[1]);
+            allData = response[1];
+            displayTag(response[0]);
             loading(false)
         }
     } catch (error) {
@@ -31,7 +36,6 @@ async function getPresentation() {
 
 
 /* presentations template start */
-
 // Display presentations in the UI
 const displayPresentation = (presentation) => {
     const contentWrapper = document.getElementById('content_wrapper');
@@ -58,8 +62,8 @@ const createPresentationCard = ({ title, content, id}) => {
             <h2 class="text-xl font-extrabold capitalize">${title}</h2>
             <div>
                 <button id="speak" data-id='${id}'>
-                    <img class="w-5 play" src="./assets/images/icons/play-circle.svg" alt="">
-                    <img class="w-5 pause hidden" src="./assets/images/icons/pause-circle.svg" alt="">
+                    <img class="w-[22px] play" src="./assets/images/icons/play-circle.svg" alt="">
+                    <img class="w-[22px] pause hidden" src="./assets/images/icons/pause-circle.svg" alt="">
                 </button>
             </div>
         </div>
@@ -143,14 +147,64 @@ const createConversationCard = ({name, text}) => {
     `;
     return presentationCard
 }
+/* conversation template end */
 
 
-const dispayTag = (contents, ) => {
+
+
+/* daily use sentences template start */
+// Display sentences in the UI
+
+function displayDailyUseSentences(conversation) {
+    const contentWrapper = document.getElementById('content_wrapper');
+    contentWrapper.className = "mt-12 lg:mt-24 mb-5 lg:flex flex-row-reverse justify-evenly gap-10 w-full max-w-[728px] lg:max-w-full mx-auto";
+    const detailsContainer = document.getElementById('details');
+    detailsContainer.innerHTML = "";
+    const innerContainer = document.createElement('div');
+    innerContainer.className = "lg:mx-left space-y-8 mt-8 lg:mt-0"
+    conversation.forEach(({title, contents}) => {
+        const categoryCard = document.createElement('div');
+        // create head
+        const headingTwo = document.createElement('h2');
+        headingTwo.className = 'text-2xl font-semibold mb-2.5 first-letter:uppercase';
+        headingTwo.innerText = title;
+        categoryCard.appendChild(headingTwo);
+
+        // create dialouge div
+        const presentationCard = document.createElement('div');
+        presentationCard.classList = "space-y-2.5"
+        categoryCard.appendChild(presentationCard)
+        contents.forEach((content) => {
+            const createNiyatCard = createDailyUseSentencesCard(content);
+            presentationCard.appendChild(createNiyatCard);
+         })
+         innerContainer.appendChild(categoryCard)
+    });
+    detailsContainer.appendChild(innerContainer)
+}
+// Create a presentation card element
+const createDailyUseSentencesCard = ({icon, text, example}) => {
+    const presentationCard = document.createElement('div');
+    presentationCard.className = "flex gap-3 items-start"
+    presentationCard.innerHTML = `
+        <span class="min-w-fit lg:text-lg">${icon}</span>
+        <div class="flex flex-col">
+            <h3 class="font-medium lg:text-lg">${text}</h3>
+        </div>
+    `;
+    return presentationCard
+}
+//<p class="text-5xl">• ${example}</p>
+
+
+
+// display tags
+const displayTag = (contents, ) => {
     const tags = document.getElementById('tags');
     tags.className = "bg-white sticky top-14 pt-6 lg:top-24 flex lg:mx-0 lg:block overflow-auto lg:pt-0 w-full lg:max-w-[368px] lg:border-l lg:h-full lg:pl-10 lg:min-h-10"
     contents.forEach((content, index) => {
         const button = document.createElement('button');
-        button.className = `filter-button lg:w-full text-left py-2 px-4 rounded-md capitalize ${index == 0 ? "active" : "" }`
+        button.className = `filter-button lg:w-full text-left py-1 px-3 lg:py-2 lg:px-4 rounded-md capitalize text-sm lg:text-base ${index == 0 ? "active" : "" }`
         button.innerText = content;
         tags.appendChild(button);
     })
@@ -183,6 +237,20 @@ tags.addEventListener('click', handleTagClick);
 
 const speechSynthesis = window.speechSynthesis;
 const utterance = new SpeechSynthesisUtterance();
+// Wait for the voices to be loaded
+speechSynthesis.onvoiceschanged = () => {
+    // Check if voices are available
+    const voices = speechSynthesis.getVoices();
+    if (voices.length > 0) {
+        // Select a voice (for example, the first one)
+        utterance.voice = voices[0];
+
+        // change the voice rate
+        // utterance.rate = 0.7;
+    } else {
+        console.error("No voices available.");
+    }
+};
 
 function speak () {
     const presentationContainer = document.getElementById('details');

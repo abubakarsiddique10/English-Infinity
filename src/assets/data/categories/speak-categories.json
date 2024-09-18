@@ -6,5 +6,13 @@
     {
         "name": "conversation",
         "img": "conversation"
+    },
+    {
+        "name": "daily use sentences",
+        "img": "conversation"
+    },
+    {
+        "name": "presentation",
+        "img": "speakingtopics"
     }
 ]
