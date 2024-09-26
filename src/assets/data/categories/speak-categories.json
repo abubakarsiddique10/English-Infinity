@@ -1,7 +1,7 @@
 [
     {
         "name": "speaking topics",
-        "img": "speakingtopics"
+        "img": "speaking-microphone"
     },
     {
         "name": "conversation",
@@ -9,10 +9,6 @@
     },
     {
         "name": "daily use sentences",
-        "img": "conversation"
-    },
-    {
-        "name": "presentation",
-        "img": "speakingtopics"
+        "img": "daily-use-sentence"
     }
 ]

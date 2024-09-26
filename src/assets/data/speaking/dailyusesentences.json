@@ -1,10 +1,10 @@
 [
-    ["all", "basic", "advance"],
+    ["all", "greetings", "thanks", "goodbye"],
     [
         {
             "title": "10 Ways to Say 'Thank You'",
             "img": "./assets/images/blog.webp",
-            "tag": "basic",
+            "tag": "thanks",
             "contents": [
                 {
                     "icon": "🔰",
@@ -60,53 +60,53 @@
             ]
         },
         {
-            "title": "10 Useful English Greetings",
+            "title": "Useful English 'Greetings'",
             "img": "./assets/images/blog.webp",
-            "tag": "basic",
+            "tag": "greetings",
             "contents": [
                 {
                     "icon": "🔰",
-                    "text": "Hello!",
+                    "text": "What's up?",
                     "example": "Hello, it’s nice to meet you."
                 },
                 {
                     "icon": "🔰",
-                    "text": "Good morning! / Good afternoon! / Good evening!",
+                    "text": "How are you?",
                     "example": "Good morning, how can I assist you?"
                 },
                 {
                     "icon": "🔰",
-                    "text": "How are you?",
+                    "text": "Good morning.",
                     "example": "How are you today?"
                 },
                 {
                     "icon": "🔰",
-                    "text": "Take care!",
+                    "text": "Good afternoon.",
                     "example": "Bye! Take care!"
                 },
                 {
                     "icon": "🔰",
-                    "text": "Have a great day!",
+                    "text": "Good evening.",
                     "example": "See you later, have a great day!"
                 },
                 {
                     "icon": "🔰",
-                    "text": "It’s great to see you!",
+                    "text": "Nice to meet you!",
                     "example": "It’s great to see you at this meeting."
                 },
                 {
                     "icon": "🔰",
-                    "text": "Glad to see you.",
+                    "text": "Good to see you.",
                     "example": "Glad to see you! What’s up?"
                 },
                 {
                     "icon": "🔰",
-                    "text": "Hey, what’s up?",
+                    "text": "How’s everything?",
                     "example": ""
                 },
                 {
                     "icon": "🔰",
-                    "text": "Nice to meet you!",
+                    "text": "How are you doing?",
                     "example": ""
                 },
                 {
@@ -116,17 +116,54 @@
                 },
                 {
                     "icon": "🔰",
-                    "text": "How’s it going?",
-                    "example": ""
-                },
-                {
-                    "icon": "🔰",
-                    "text": "What’s new?",
-                    "example": ""
-                },
-                {
-                    "icon": "🔰",
                     "text": "What’s happening?",
+                    "example": ""
+                }
+            ]
+        },
+        {
+            "title": "Different Ways to Say 'Goodbye'",
+            "img": "./assets/images/blog.webp",
+            "tag": "goodbye",
+            "contents": [
+                {
+                    "icon": "🔰",
+                    "text": "Bye!",
+                    "example": ""
+                },
+                {
+                    "icon": "🔰",
+                    "text": "Goodbye.",
+                    "example": ""
+                },
+                {
+                    "icon": "🔰",
+                    "text": "Have a great day.",
+                    "example": ""
+                },
+                {
+                    "icon": "🔰",
+                    "text": "Take care.",
+                    "example": ""
+                },
+                {
+                    "icon": "🔰",
+                    "text": "See you later!",
+                    "example": ""
+                },
+                {
+                    "icon": "🔰",
+                    "text": "See you soon.",
+                    "example": ""
+                },
+                {
+                    "icon": "🔰",
+                    "text": "Talk to you later.",
+                    "example": ""
+                },
+                {
+                    "icon": "🔰",
+                    "text": "See you next time!",
                     "example": ""
                 }
             ]

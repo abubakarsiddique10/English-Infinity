@@ -53,12 +53,12 @@ const displayPresentation = (presentation) => {
 }
 
 // Create a presentation card element
-const createPresentationCard = ({ title, content, id}) => {
-    const truncatedContent = content.length > 300 ? content.slice(0, 300) : content;
+const createPresentationCard = ({ title, subtitle, content, id}) => {
+    const truncatedContent = subtitle.length > 300 ? subtitle.slice(0, 300) : subtitle;
     const presentationCard = document.createElement('article');
     presentationCard.className = "py-6 border-b w-full article";
     presentationCard.innerHTML = `
-        <div class="flex items-center justify-between pb-2 ">
+        <div class="flex items-center justify-between pb-2">
             <h2 class="text-xl font-extrabold capitalize">${title}</h2>
             <div>
                 <button id="speak" data-id='${id}'>
@@ -67,12 +67,10 @@ const createPresentationCard = ({ title, content, id}) => {
                 </button>
             </div>
         </div>
-        <div>
-           <p class="text-[#242424]">
-            <span>${truncatedContent}</span>
-            <span class="hidden">${content}</span>
-            <button class="presentationBtn text-[#108a00]">...Read more</button>  
-            </p>
+        <div class="text-[#242424]">
+            <p>${truncatedContent}</p>
+            <div class="hidden space-y-2">${content}</div>
+            <button class="presentationBtn text-[#108a00]">...Read more</button>
         </div>
     `;
     return presentationCard
@@ -110,7 +108,7 @@ const displayConversation = (conversation) => {
     const detailsContainer = document.getElementById('details');
     detailsContainer.innerHTML = "";
     const innerContainer = document.createElement('div');
-    innerContainer.className = "lg:mx-left space-y-8 mt-8 lg:mt-0"
+    innerContainer.className = "lg:mx-left space-y-8 mt-4 lg:mt-0"
     conversation.forEach(({title, img, contents}) => {
         const categoryCard = document.createElement('div');
         // create head
@@ -201,7 +199,7 @@ const createDailyUseSentencesCard = ({icon, text, example}) => {
 // display tags
 const displayTag = (contents, ) => {
     const tags = document.getElementById('tags');
-    tags.className = "bg-white sticky top-14 pt-6 lg:top-24 flex lg:mx-0 lg:block overflow-auto lg:pt-0 w-full lg:max-w-[368px] lg:border-l lg:h-full lg:pl-10 lg:min-h-10"
+    tags.className = "bg-white sticky top-14 pt-6 !pb-4 lg:top-24 flex lg:mx-0 lg:block overflow-auto lg:pt-0 w-full lg:max-w-[368px] lg:border-l lg:h-full lg:pl-10 lg:min-h-10"
     contents.forEach((content, index) => {
         const button = document.createElement('button');
         button.className = `filter-button lg:w-full text-left py-1 px-3 lg:py-2 lg:px-4 rounded-md capitalize text-sm lg:text-base ${index == 0 ? "active" : "" }`
@@ -224,6 +222,8 @@ function handleTagClick(event) {
             displayConversation(filterData);
         } else if(category === "presentation") {
             displayPresentation(filterData);
+        }else if(category === "dailyusesentences") {
+            displayDailyUseSentences(filterData)
         }
     }
 }
@@ -246,7 +246,7 @@ speechSynthesis.onvoiceschanged = () => {
         utterance.voice = voices[0];
 
         // change the voice rate
-        // utterance.rate = 0.7;
+        utterance.rate = 0.9;
     } else {
         console.error("No voices available.");
     }
@@ -254,13 +254,11 @@ speechSynthesis.onvoiceschanged = () => {
 
 function speak () {
     const presentationContainer = document.getElementById('details');
-
     presentationContainer.addEventListener('click', (event) => {
     const speakButton = event.target.closest('#speak');
     const isPlay = event.target.classList.contains('play');
     const isPause = event.target.classList.contains('pause');
-
-    const dataId = speakButton.dataset.id;
+    const dataId = speakButton?.dataset.id;
 ;
 
     if(isPlay) {
@@ -276,9 +274,9 @@ function speak () {
 
         event.target.classList.add('hidden')
         event.target.nextElementSibling.classList.remove('hidden');
-                
         const findTextContent = allData.find(({id}) => id == dataId);
-        utterance.text = findTextContent.content;
+        const removeParagraphTags = findTextContent.content.replace(/<\/?p>/g, '');
+        utterance.text = removeParagraphTags
         speechSynthesis.speak(utterance);
             
 
