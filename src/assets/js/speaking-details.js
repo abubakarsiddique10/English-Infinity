@@ -43,7 +43,7 @@ const displayPresentation = (presentation) => {
     const detailsContainer = document.getElementById('details');
     detailsContainer.innerHTML = "";
     const innerContainer = document.createElement('div');
-    innerContainer.className = "w-full max-w-[728px] mx-auto lg:mx-left mt-8 lg:mt-0"
+    innerContainer.className = "w-full max-w-[728px] mx-auto lg:mx-left  lg:mt-0"
     /* detailsContainer.innerHTML = ""; */
     presentation.forEach(item => {
         const presentationCardElement = createPresentationCard(item);
@@ -58,8 +58,8 @@ const createPresentationCard = ({ title, subtitle, content, id}) => {
     const presentationCard = document.createElement('article');
     presentationCard.className = "py-6 border-b w-full article";
     presentationCard.innerHTML = `
-        <div class="flex items-center justify-between pb-2">
-            <h2 class="text-xl font-extrabold capitalize">${title}</h2>
+        <div class="flex items-center justify-between mb-2">
+            <h2 class="text-xl font-bold capitalize">${title}</h2>
             <div>
                 <button id="speak" data-id='${id}'>
                     <img class="w-[22px] play" src="./assets/images/icons/play-circle.svg" alt="">
@@ -67,9 +67,9 @@ const createPresentationCard = ({ title, subtitle, content, id}) => {
                 </button>
             </div>
         </div>
-        <div class="text-[#242424]">
+        <div class="text-[#242424] text-lg  leading-7 lg:text-xl lg:leading-8">
             <p>${truncatedContent}</p>
-            <div class="hidden space-y-2">${content}</div>
+            <div class="hidden space-y-5">${content}</div>
             <button class="presentationBtn text-[#108a00]">...Read more</button>
         </div>
     `;
@@ -187,7 +187,7 @@ const createDailyUseSentencesCard = ({icon, text, example}) => {
     presentationCard.innerHTML = `
         <span class="min-w-fit lg:text-lg">${icon}</span>
         <div class="flex flex-col">
-            <h3 class="font-medium lg:text-lg">${text}</h3>
+            <p class="font-medium lg:text-lg">${text}</p>
         </div>
     `;
     return presentationCard

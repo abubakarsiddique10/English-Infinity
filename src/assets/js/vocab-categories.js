@@ -33,7 +33,7 @@ function createCategoryCard({ name, img }) {
     <figure class="w-12 h-12 flex items-center justify-center rounded">
         <img class="w-7" src="./assets/images/icons/${img}.svg" />
     </figure>
-    <h3 class="font-semibold leading-6 text-xl font-['Hind_Siliguri'] text-[#363637] capitalize">
+    <h3 class="font-semibold leading-6 text-lg font-inter text-[#363637] capitalize">
     ${name}
     </h3>
     `
