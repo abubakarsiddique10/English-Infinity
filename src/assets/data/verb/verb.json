@@ -1,0 +1,16 @@
+[
+    {
+        "_id": "1",
+        "word": "cook",
+        "image": "cook",
+        "sentence": "Camel is called the ship of desert.",
+        "tags": "basic"
+    },
+    {
+        "_id": "2",
+        "word": "cook",
+        "image": "cook",
+        "sentence": "Camel is called the ship of desert.",
+        "tags": "basic"
+    }
+]

@@ -12,6 +12,10 @@
         "link": "./vocab-categories.html"
     },
     {
+        "name": "verb",
+        "link": "./verb.html"
+    },
+    {
         "name": "blog",
         "link": "./blog.html"
     }
