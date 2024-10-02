@@ -1,16 +1,72 @@
 [
-    {
-        "_id": "1",
-        "word": "cook",
-        "image": "cook",
-        "sentence": "Camel is called the ship of desert.",
-        "tags": "basic"
-    },
-    {
-        "_id": "2",
-        "word": "cook",
-        "image": "cook",
-        "sentence": "Camel is called the ship of desert.",
-        "tags": "basic"
-    }
+    [
+        "all",
+        "basic",
+        "advance"
+    ],
+    [
+        {
+            "_id": "1",
+            "word": "cook",
+            "image": "cook",
+            "sentence": "Camel is called the ship of desert.",
+            "tags": "basic"
+        },
+        {
+            "_id": "2",
+            "word": "drink",
+            "image": "drink",
+            "sentence": "Camel is called the ship of desert.",
+            "tags": "advance"
+        },
+        {
+            "_id": "2",
+            "word": "jump",
+            "image": "jump",
+            "sentence": "Camel is called the ship of desert.",
+            "tags": "advance"
+        },
+        {
+            "_id": "2",
+            "word": "draw",
+            "image": "draw",
+            "sentence": "Camel is called the ship of desert.",
+            "tags": "advance"
+        },
+        {
+            "_id": "2",
+            "word": "swim",
+            "image": "swim",
+            "sentence": "Camel is called the ship of desert.",
+            "tags": "advance"
+        },
+        {
+            "_id": "2",
+            "word": "eat",
+            "image": "eat",
+            "sentence": "Camel is called the ship of desert.",
+            "tags": "advance"
+        },
+        {
+            "_id": "2",
+            "word": "paint",
+            "image": "paint",
+            "sentence": "Camel is called the ship of desert.",
+            "tags": "advance"
+        },
+        {
+            "_id": "2",
+            "word": "play",
+            "image": "play",
+            "sentence": "Camel is called the ship of desert.",
+            "tags": "advance"
+        },
+        {
+            "_id": "2",
+            "word": "sleep",
+            "image": "sleep",
+            "sentence": "Camel is called the ship of desert.",
+            "tags": "advance"
+        }
+    ]
 ]

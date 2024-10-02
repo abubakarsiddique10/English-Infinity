@@ -11,17 +11,17 @@ async function getPresentation() {
     const url = `././assets/data/speaking/${category}.json`;
     try {
         const response = await fetchData(url);
-        if(category === "conversation") {
+        if (category === "conversation") {
             displayConversation(response[1]);
             allData = response[1];
             displayTag(response[0]);
             loading(false)
-        } else if(category === "speakingtopics" || category === "presentation") {
+        } else if (category === "speakingtopics" || category === "presentation") {
             displayPresentation(response[1]);
             allData = response[1];
             displayTag(response[0]);
             loading(false)
-        } else if(category === "dailyusesentences") {
+        } else if (category === "dailyusesentences") {
             displayDailyUseSentences(response[1]);
             allData = response[1];
             displayTag(response[0]);
@@ -53,7 +53,7 @@ const displayPresentation = (presentation) => {
 }
 
 // Create a presentation card element
-const createPresentationCard = ({ title, subtitle, content, id}) => {
+const createPresentationCard = ({ title, subtitle, content, id }) => {
     const truncatedContent = subtitle.length > 300 ? subtitle.slice(0, 300) : subtitle;
     const presentationCard = document.createElement('article');
     presentationCard.className = "py-6 border-b w-full article";
@@ -67,7 +67,7 @@ const createPresentationCard = ({ title, subtitle, content, id}) => {
                 </button>
             </div>
         </div>
-        <div class="text-[#242424] text-lg  leading-7 lg:text-xl lg:leading-8">
+        <div class="text-[#242424] text-lg leading-7 lg:text-xl lg:leading-8">
             <p>${truncatedContent}</p>
             <div class="hidden space-y-5">${content}</div>
             <button class="presentationBtn text-[#108a00]">...Read more</button>
@@ -80,12 +80,12 @@ const createPresentationCard = ({ title, subtitle, content, id}) => {
 const addReadMoreEventListeners = () => {
     const presentationContainer = document.getElementById('details');
     presentationContainer.addEventListener('click', (event) => {
-        
+
         if (event.target.classList.contains('presentationBtn')) {
             const button = event.target;
             const previewContent = button.previousElementSibling;
             const hiddenContent = button.previousElementSibling.previousElementSibling;
-           
+
             const isContentHidden = previewContent.classList.contains('hidden');
             button.innerHTML = isContentHidden ? "Read less" : "...Read more";
             previewContent.classList.toggle('hidden');
@@ -109,11 +109,11 @@ const displayConversation = (conversation) => {
     detailsContainer.innerHTML = "";
     const innerContainer = document.createElement('div');
     innerContainer.className = "lg:mx-left space-y-8 mt-4 lg:mt-0"
-    conversation.forEach(({title, img, contents}) => {
+    conversation.forEach(({ title, img, contents }) => {
         const categoryCard = document.createElement('div');
         // create head
         const headingTwo = document.createElement('h2');
-        headingTwo.className = 'text-2xl font-semibold mb-2 first-letter:uppercase';
+        headingTwo.className = 'text-2xl font-inter font-semibold mb-2 first-letter:uppercase';
         headingTwo.innerText = title;
         categoryCard.appendChild(headingTwo);
         // create image
@@ -129,19 +129,19 @@ const displayConversation = (conversation) => {
         contents.forEach((content) => {
             const createNiyatCard = createConversationCard(content);
             presentationCard.appendChild(createNiyatCard);
-         })
-         innerContainer.appendChild(categoryCard)
+        })
+        innerContainer.appendChild(categoryCard)
     });
     detailsContainer.appendChild(innerContainer)
 }
 
 // Create a presentation card element
-const createConversationCard = ({name, text}) => {
+const createConversationCard = ({ name, text }) => {
     const presentationCard = document.createElement('p');
     presentationCard.className = "flex gap-6"
     presentationCard.innerHTML = `
-        <strong class="min-w-fit">${name} :</strong>
-        <span>${text}</span>
+        <strong class="min-w-fit text-lg">${name} :</strong>
+        <span class="text-lg">${text}</span>
     `;
     return presentationCard
 }
@@ -160,7 +160,7 @@ function displayDailyUseSentences(conversation) {
     detailsContainer.innerHTML = "";
     const innerContainer = document.createElement('div');
     innerContainer.className = "lg:mx-left space-y-8 mt-8 lg:mt-0"
-    conversation.forEach(({title, contents}) => {
+    conversation.forEach(({ title, contents }) => {
         const categoryCard = document.createElement('div');
         // create head
         const headingTwo = document.createElement('h2');
@@ -175,13 +175,13 @@ function displayDailyUseSentences(conversation) {
         contents.forEach((content) => {
             const createNiyatCard = createDailyUseSentencesCard(content);
             presentationCard.appendChild(createNiyatCard);
-         })
-         innerContainer.appendChild(categoryCard)
+        })
+        innerContainer.appendChild(categoryCard)
     });
     detailsContainer.appendChild(innerContainer)
 }
 // Create a presentation card element
-const createDailyUseSentencesCard = ({icon, text, example}) => {
+const createDailyUseSentencesCard = ({ icon, text, example }) => {
     const presentationCard = document.createElement('div');
     presentationCard.className = "flex gap-3 items-start"
     presentationCard.innerHTML = `
@@ -197,12 +197,12 @@ const createDailyUseSentencesCard = ({icon, text, example}) => {
 
 
 // display tags
-const displayTag = (contents, ) => {
+const displayTag = (contents,) => {
     const tags = document.getElementById('tags');
     tags.className = "bg-white sticky top-14 pt-6 !pb-4 lg:top-24 flex lg:mx-0 lg:block overflow-auto lg:pt-0 w-full lg:max-w-[368px] lg:border-l lg:h-full lg:pl-10 lg:min-h-10"
     contents.forEach((content, index) => {
         const button = document.createElement('button');
-        button.className = `filter-button lg:w-full text-left py-1 px-3 lg:py-2 lg:px-4 rounded-md capitalize text-sm lg:text-base ${index == 0 ? "active" : "" }`
+        button.className = `filter-button lg:w-full font-inter text-left py-1 px-3 lg:py-2 lg:px-4 rounded-md capitalize text-sm  lg:text-base ${index == 0 ? "active" : ""}`
         button.innerText = content;
         tags.appendChild(button);
     })
@@ -217,12 +217,12 @@ function handleTagClick(event) {
 
         const buttonText = event.target.innerText.toLowerCase();
         const filterData = buttonText === "all" ? allData : allData.filter((data) => data.tag === buttonText);
-        
-        if(category === "conversation") {
+
+        if (category === "conversation") {
             displayConversation(filterData);
-        } else if(category === "presentation") {
+        } else if (category === "presentation") {
             displayPresentation(filterData);
-        }else if(category === "dailyusesentences") {
+        } else if (category === "dailyusesentences") {
             displayDailyUseSentences(filterData)
         }
     }
@@ -252,41 +252,41 @@ speechSynthesis.onvoiceschanged = () => {
     }
 };
 
-function speak () {
+function speak() {
     const presentationContainer = document.getElementById('details');
     presentationContainer.addEventListener('click', (event) => {
-    const speakButton = event.target.closest('#speak');
-    const isPlay = event.target.classList.contains('play');
-    const isPause = event.target.classList.contains('pause');
-    const dataId = speakButton?.dataset.id;
-;
+        const speakButton = event.target.closest('#speak');
+        const isPlay = event.target.classList.contains('play');
+        const isPause = event.target.classList.contains('pause');
+        const dataId = speakButton?.dataset.id;
+        ;
 
-    if(isPlay) {
-        event.target.classList.add('hidden');
-        event.target.nextElementSibling.classList.remove('hidden');
+        if (isPlay) {
+            event.target.classList.add('hidden');
+            event.target.nextElementSibling.classList.remove('hidden');
 
-        speechSynthesis.cancel();
+            speechSynthesis.cancel();
 
-        const allPause = document.querySelectorAll('.pause');
-        const allPlay = document.querySelectorAll('.play');
-        allPlay.forEach((element) => element.classList.remove('hidden'))
-        allPause.forEach((element) => element.classList.add('hidden'))
+            const allPause = document.querySelectorAll('.pause');
+            const allPlay = document.querySelectorAll('.play');
+            allPlay.forEach((element) => element.classList.remove('hidden'))
+            allPause.forEach((element) => element.classList.add('hidden'))
 
-        event.target.classList.add('hidden')
-        event.target.nextElementSibling.classList.remove('hidden');
-        const findTextContent = allData.find(({id}) => id == dataId);
-        const removeParagraphTags = findTextContent.content.replace(/<\/?p>/g, '');
-        utterance.text = removeParagraphTags
-        speechSynthesis.speak(utterance);
-            
+            event.target.classList.add('hidden')
+            event.target.nextElementSibling.classList.remove('hidden');
+            const findTextContent = allData.find(({ id }) => id == dataId);
+            const removeParagraphTags = findTextContent.content.replace(/<\/?p>/g, '');
+            utterance.text = removeParagraphTags
+            speechSynthesis.speak(utterance);
 
-        }else if(isPause) {
+
+        } else if (isPause) {
             event.target.classList.add('hidden');
             event.target.previousElementSibling.classList.remove('hidden');
 
             speechSynthesis.cancel();
         }
-    }) 
+    })
 }
 speak()
 
