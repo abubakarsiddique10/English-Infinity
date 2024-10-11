@@ -1,15 +1,15 @@
 import { fetchData } from "./common.js";
-import { loading } from "./main.js";
+import { setLoading } from "./main.js";
 
 const categoriesContainer = document.getElementById('categories');
 // Function to fetch and display vocabulary categories
 async function fetchCategories() {
-    loading(true);
+    setLoading(true);
     const url = `././assets/data/categories/speak-categories.json`;
     try {
         const response = await fetchData(url);
         displayCategories(response);
-        loading(false);
+        setLoading(false);
     } catch (error) {
         console.log(error)
     }

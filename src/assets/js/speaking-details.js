@@ -1,13 +1,13 @@
 const queryParams = new URLSearchParams(window.location.search);
 const category = queryParams.get('category');
 import { fetchData } from "./common.js";
-import { loading } from "./main.js";
+import { setLoading } from "./main.js";
 
 let allData = null;
 
 // Fetch presentation data and initialize the display
 async function getPresentation() {
-    loading(true)
+    setLoading(true)
     const url = `././assets/data/speaking/${category}.json`;
     try {
         const response = await fetchData(url);
@@ -15,17 +15,17 @@ async function getPresentation() {
             displayConversation(response[1]);
             allData = response[1];
             displayTag(response[0]);
-            loading(false)
+            setLoading(false)
         } else if (category === "speakingtopics" || category === "presentation") {
             displayPresentation(response[1]);
             allData = response[1];
             displayTag(response[0]);
-            loading(false)
+            setLoading(false)
         } else if (category === "dailyusesentences") {
             displayDailyUseSentences(response[1]);
             allData = response[1];
             displayTag(response[0]);
-            loading(false)
+            setLoading(false)
         }
     } catch (error) {
         console.error(error)

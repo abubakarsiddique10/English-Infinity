@@ -75,10 +75,10 @@ const createMenuItem = (item) => {
 
 
 // loading sppiner
-function loading (value) {
+function setLoading(value) {
     const preloader = document.getElementById('preloader');
     preloader.style.display = value ? "block" : "none";
 }
 
 // export loading function
-export {loading}
+export { setLoading }
