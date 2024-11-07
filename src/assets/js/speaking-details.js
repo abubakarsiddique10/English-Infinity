@@ -70,7 +70,7 @@ const createPresentationCard = ({ title, subtitle, content, id }) => {
         <div class="text-[#242424] text-lg leading-7 lg:text-xl lg:leading-8">
             <p>${truncatedContent}</p>
             <div class="hidden space-y-5">${content}</div>
-            <button class="presentationBtn text-[#108a00]">...Read more</button>
+            <button class="presentationBtn text-[#108a00] lg:text-lg">...Read more</button>
         </div>
     `;
     return presentationCard

@@ -1,96 +1,78 @@
 [
-    ["all", "basic", "advance"],
+    [
+        "all",
+        "basic",
+        "advance"
+    ],
     [
         {
-            "title": "may I introduce myself?",
+            "title": "Introduce Yourself in English.",
             "img": "./assets/images/blog.webp",
             "tag": "basic",
             "contents": [
                 {
-                    "name": "Maria",
-                    "text": "Hello! May I introduce myself? I am Maria."
+                    "name": "Mark",
+                    "text": "Hello!"
                 },
                 {
-                    "name": "Nadia",
-                    "text": "Hi! I'm Didar."
+                    "name": "Peter",
+                    "text": "Hi!"
                 },
                 {
-                    "name": "Imam",
-                    "text": "Where are you going Didar?"
+                    "name": "Mark",
+                    "text": "My name is Mark. What's your name?"
                 },
                 {
-                    "name": "Didar",
-                    "text": "I'm going to Chattogram on holiday. and you?"
+                    "name": "Peter",
+                    "text": "My name is Peter. Nice to meet you."
                 },
                 {
-                    "name": "Imam",
-                    "text": "Well, I'm going to Sylhet."
+                    "name": "Mark",
+                    "text": "Nice to meet you too!"
                 },
                 {
-                    "name": "Didar",
-                    "text": "I'm going to Chattogram on holiday. and you?"
-                }
-            ]
-        },
-        {
-            "title": "may I introduce myself?",
-            "img": "./assets/images/blog.webp",
-            "tag": "basic",
-            "contents": [
-                {
-                    "name": "Imam",
-                    "text": "Hello! May I introduce myself? I'm Imam."
+                    "name": "Peter",
+                    "text": "Where are you from?"
                 },
                 {
-                    "name": "Didar",
-                    "text": "Hi! I'm Didar."
+                    "name": "Mark",
+                    "text": "I'm from New York."
                 },
                 {
-                    "name": "Imam",
-                    "text": "Where are you going Didar?"
+                    "name": "Peter",
+                    "text": "New York? Are you American?"
                 },
                 {
-                    "name": "Didar",
-                    "text": "I'm going to Chattogram on holiday. and you?"
+                    "name": "Mark",
+                    "text": "Yes, I am."
                 },
                 {
-                    "name": "Imam",
-                    "text": "Well, I'm going to Sylhet."
+                    "name": "Peter",
+                    "text": "Oh, that's cool!"
                 },
                 {
-                    "name": "Didar",
-                    "text": "I'm going to Chattogram on holiday. and you?"
-                }
-            ]
-        },
-        {
-            "title": "Introduction dialoge 2",
-            "img": "./assets/images/blog.webp",
-            "tag": "advance",
-            "contents": [
-                {
-                    "name": "Imam",
-                    "text": "Hello! May I introduce myself? I'm Imam."
+                    "name": "Mark",
+                    "text": "What about you? Where are you from?"
                 },
                 {
-                    "name": "Didar",
-                    "text": "Hi! I'm Didar."
+                    "name": "Peter",
+                    "text": "I'm from Paris, but I’m originally from Italy."
                 },
                 {
-                    "name": "Imam",
-                    "text": "Where are you going Didar?"
+                    "name": "Mark",
+                    "text": "Oh, you're Italian! That's amazing."
                 },
                 {
-                    "name": "Didar",
-                    "text": "I'm going to Chattogram on holiday. and you?"
+                    "name": "Peter",
+                    "text": "Yes, I am. Italy is such a beautiful country."
                 },
                 {
-                    "name": "Imam",
-                    "text": "Well, I'm going to Sylhet."
+                    "name": "Mark",
+                    "text": "Absolutely! I’d love to visit someday."
                 },
                 {
-                    "name": "Didar",
-                    "text": "I'm going to Chattogram on holiday. and you?"
+                    "name": "Peter",
+                    "text": "You should! There's so much to see."
                 }
             ]
         }

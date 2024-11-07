@@ -6,7 +6,7 @@ const vocabArrows = document.querySelectorAll('#vocabulary .arrow');
 vocabArrows.forEach((arrow) => {
     arrow.addEventListener('click', (e) => {
         const arrow = e.target.closest('button').id;
-        vocabularySlider.scrollLeft += arrow == "right" ?  + 196 : - 196
+        vocabularySlider.scrollLeft += arrow == "right" ? + 196 : - 196
     })
 })
 /* section vocabulary end */
@@ -21,7 +21,7 @@ const speakingbArrows = document.querySelectorAll('#speaking .arrow');
 speakingbArrows.forEach((arrow) => {
     arrow.addEventListener('click', (e) => {
         const arrow = e.target.closest('button').id;
-        speakingSlider.scrollLeft += arrow == "right" ?  + 196 : - 196
+        speakingSlider.scrollLeft += arrow == "right" ? + 196 : - 196
     })
 })
 /* section speaking end */
