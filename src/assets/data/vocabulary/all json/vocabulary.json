@@ -165,7 +165,7 @@
                     "_id": 40,
                     "word": "grape",
                     "meaning": "আঙ্গুর",
-                    "image": "grape",
+                    "image": "grapes",
                     "synonym": [],
                     "antonym": [],
                     "tags": "fruits",
@@ -261,7 +261,7 @@
                     "_id": 6,
                     "word": "carrot",
                     "meaning": "গাজর",
-                    "image": "carrot",
+                    "image": "f-carrot",
                     "synonym": [],
                     "antonym": [],
                     "tags": "vegetables",
@@ -370,7 +370,7 @@
                     "_id": 13,
                     "word": "radish",
                     "meaning": "মূলা",
-                    "image": "radish",
+                    "image": "raddish",
                     "synonym": [],
                     "antonym": [],
                     "tags": "vegetables",
@@ -473,6 +473,16 @@
                     "sentence": "The classroom was spacious and well-lit."
                 },
                 {
+                    "_id": "7",
+                    "word": "lesson",
+                    "meaning": "পাঠ",
+                    "image": "lesson",
+                    "synonym": [],
+                    "antonym": [],
+                    "tags": "education",
+                    "sentence": "She prepared diligently for her lesson."
+                },
+                {
                     "_id": "8",
                     "word": "homework",
                     "meaning": "গৃহকার্য",
@@ -511,6 +521,16 @@
                     "antonym": [],
                     "tags": "education",
                     "sentence": "The principal addressed the students during assembly."
+                },
+                {
+                    "_id": "12",
+                    "word": "syllabus",
+                    "meaning": "পাঠ্যসূচি",
+                    "image": "syllabus",
+                    "synonym": [],
+                    "antonym": [],
+                    "tags": "education",
+                    "sentence": "The syllabus for this semester includes various topics."
                 },
                 {
                     "_id": "13",
@@ -573,6 +593,16 @@
                     "sentence": "Continuous learning is important for personal development."
                 },
                 {
+                    "_id": "19",
+                    "word": "degree",
+                    "meaning": "ডিগ্রি",
+                    "image": "degree",
+                    "synonym": [],
+                    "antonym": [],
+                    "tags": "education",
+                    "sentence": "She earned a bachelor's degree in psychology."
+                },
+                {
                     "_id": "20",
                     "word": "scholarship",
                     "meaning": "বৃত্তি",
@@ -633,10 +663,40 @@
                     "sentence": "She hired a tutor to help her with math."
                 },
                 {
+                    "_id": "26",
+                    "word": "classroom management",
+                    "meaning": "শ্রেণীকক্ষ ব্যবস্থাপনা",
+                    "image": "classroom management",
+                    "synonym": [],
+                    "antonym": [],
+                    "tags": "education",
+                    "sentence": "Effective classroom management is crucial for a productive learning environment."
+                },
+                {
+                    "_id": "27",
+                    "word": "curriculum",
+                    "meaning": "পাঠ্যক্রম",
+                    "image": "curriculum",
+                    "synonym": [],
+                    "antonym": [],
+                    "tags": "education",
+                    "sentence": "The curriculum covers a wide range of subjects."
+                },
+                {
+                    "_id": "28",
+                    "word": "faculty",
+                    "meaning": "শিক্ষক দল",
+                    "image": "faculty",
+                    "synonym": [],
+                    "antonym": [],
+                    "tags": "education",
+                    "sentence": "The faculty members are highly experienced."
+                },
+                {
                     "_id": "29",
                     "word": "attendance",
                     "meaning": "উপস্থিতি",
-                    "image": "attendance",
+                    "image": "",
                     "synonym": [],
                     "antonym": [],
                     "tags": "education",
@@ -759,6 +819,16 @@
                     "tags": "colors"
                 },
                 {
+                    "_id": "11",
+                    "word": "turquoise",
+                    "meaning": "ফেরোজা",
+                    "image": "turquoise",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "She decorated the room with turquoise curtains.",
+                    "tags": "colors"
+                },
+                {
                     "_id": "12",
                     "word": "violet",
                     "meaning": "বেগুনি",
@@ -766,6 +836,26 @@
                     "synonym": [],
                     "antonym": [],
                     "sentence": "Violet flowers bloomed in the garden.",
+                    "tags": "colors"
+                },
+                {
+                    "_id": "13",
+                    "word": "maroon",
+                    "meaning": "মেরুন",
+                    "image": "maroon",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "She painted her room walls maroon.",
+                    "tags": "colors"
+                },
+                {
+                    "_id": "14",
+                    "word": "beige",
+                    "meaning": "বেজ",
+                    "image": "beige",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "The sofa was a soft beige color.",
                     "tags": "colors"
                 },
                 {
@@ -806,6 +896,26 @@
                     "synonym": [],
                     "antonym": [],
                     "sentence": "She wore a necklace made of gold.",
+                    "tags": "colors"
+                },
+                {
+                    "_id": "19",
+                    "word": "burgundy",
+                    "meaning": "বাদামি রং",
+                    "image": "burgundy",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "The wine had a deep burgundy color.",
+                    "tags": "colors"
+                },
+                {
+                    "_id": "20",
+                    "word": "magenta",
+                    "meaning": "মেজেন্টা",
+                    "image": "magenta",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "She painted her nails with magenta polish.",
                     "tags": "colors"
                 }
             ]
@@ -875,6 +985,16 @@
                     "tags": "religion"
                 },
                 {
+                    "_id": "6",
+                    "word": "sacred",
+                    "meaning": "পবিত্র",
+                    "image": "sacred",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "The river is considered sacred by the local community.",
+                    "tags": "religion"
+                },
+                {
                     "_id": "7",
                     "word": "holy",
                     "meaning": "পবিত্র",
@@ -885,6 +1005,26 @@
                     "tags": "religion"
                 },
                 {
+                    "_id": "8",
+                    "word": "ritual",
+                    "meaning": "অনুষ্ঠান",
+                    "image": "ritual",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "They perform a purification ritual before entering the temple.",
+                    "tags": "religion"
+                },
+                {
+                    "_id": "9",
+                    "word": "divine",
+                    "meaning": "দেবীয়",
+                    "image": "divine",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "The stars were thought to possess divine powers.",
+                    "tags": "religion"
+                },
+                {
                     "_id": "10",
                     "word": "soul",
                     "meaning": "আত্মা",
@@ -892,6 +1032,16 @@
                     "synonym": [],
                     "antonym": [],
                     "sentence": "After death, it is believed that the soul leaves the body.",
+                    "tags": "religion"
+                },
+                {
+                    "_id": "11",
+                    "word": "sin",
+                    "meaning": "পাপ",
+                    "image": "sin",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "In many religions, it is believed that committing a sin leads to punishment.",
                     "tags": "religion"
                 },
                 {
@@ -958,7 +1108,7 @@
                     "_id": "18",
                     "word": "holy book",
                     "meaning": "পবিত্র বই",
-                    "image": "holy book",
+                    "image": "holy_book",
                     "synonym": [],
                     "antonym": [],
                     "sentence": "The Quran is the holy book of Islam.",
@@ -972,6 +1122,16 @@
                     "synonym": [],
                     "antonym": [],
                     "sentence": "There are many different religions practiced around the world.",
+                    "tags": "religion"
+                },
+                {
+                    "_id": "20",
+                    "word": "ritual",
+                    "meaning": "রুটিন",
+                    "image": "ritual",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "Performing ablutions is a daily ritual for Muslims.",
                     "tags": "religion"
                 },
                 {
@@ -1241,6 +1401,26 @@
                     "antonym": [],
                     "sentence": "She's the reigning champion of the swimming competition.",
                     "tags": "sports"
+                },
+                {
+                    "_id": "16",
+                    "word": "fan",
+                    "meaning": "অনুরাগী",
+                    "image": "fan",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "The fans cheered loudly for their team.",
+                    "tags": "sports"
+                },
+                {
+                    "_id": "17",
+                    "word": "spectator",
+                    "meaning": "দর্শক",
+                    "image": "spectator",
+                    "synonym": [],
+                    "antonym": [],
+                    "sentence": "The stadium was filled with excited spectators.",
+                    "tags": "sports"
                 }
             ]
         },
@@ -1251,11 +1431,11 @@
                     "__comment": "Start of food vocabulary section",
                     "_id": "0",
                     "word": "rice",
-                    "meaning": "",
-                    "image": "rice",
+                    "meaning": "খেলোয়াড়",
+                    "image": "player",
                     "synonym": [],
                     "antonym": [],
-                    "sentence": "Fried rice is my favorite.",
+                    "sentence": "Football is a team game",
                     "tags": "food"
                 }
             ]

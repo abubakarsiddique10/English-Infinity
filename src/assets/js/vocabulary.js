@@ -62,8 +62,8 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
     vocabularyCard.className = 'min-h-[160px] h-full flex rounded-md border border-[#F0F1F3]';
     vocabularyCard.title = `Click for details about ${word}`;
     vocabularyCard.innerHTML = `
-        <button class="px-3 pt-8 pb-4 flex flex-col items-center w-full ">
-            <img id="svg" class="w-12" src="./assets/images/vocabulary/${image}.svg" alt="${image}">
+        <button class="px-3 pt-8 pb-4 flex flex-col items-center w-full">
+            <img id="svg" class="w-16" src="./assets/images/vocabulary/${image}.png" alt="${image}">
             <div class="flex items-center mt-5 gap-1">
                 <span class="text-lg font-medium leading-6 capitalize text-center">${word}</span>
                 <img class="w-5 pronounce" src="./assets/images/icons/volume_up.svg" title="Click for pronounced" alt="pronounce">
