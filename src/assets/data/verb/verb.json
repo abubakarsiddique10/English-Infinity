@@ -122,12 +122,6 @@
                     "sentence": "Let's go to the park."
                 },
                 {
-                    "_id": "8",
-                    "word": "know",
-                    "image": "know",
-                    "sentence": "I know how to solve this problem."
-                },
-                {
                     "_id": "9",
                     "word": "take",
                     "image": "take",
@@ -191,19 +185,13 @@
                     "_id": "19",
                     "word": "ask",
                     "image": "ask",
-                    "sentence": "I will ask him for help."
+                    "sentence": "A young boy is helping an elderly woman cross the street."
                 },
                 {
                     "_id": "20",
                     "word": "work",
                     "image": "work",
                     "sentence": "They work hard every day."
-                },
-                {
-                    "_id": "21",
-                    "word": "seem",
-                    "image": "seem",
-                    "sentence": "It seems like a good idea."
                 },
                 {
                     "_id": "22",
@@ -218,34 +206,10 @@
                     "sentence": "I'll try to fix it."
                 },
                 {
-                    "_id": "24",
-                    "word": "leave",
-                    "image": "leave",
-                    "sentence": "I have to leave now."
-                },
-                {
                     "_id": "25",
                     "word": "call",
                     "image": "call",
                     "sentence": "I'll call you later."
-                },
-                {
-                    "_id": "26",
-                    "word": "keep",
-                    "image": "keep",
-                    "sentence": "Please keep the door open."
-                },
-                {
-                    "_id": "27",
-                    "word": "let",
-                    "image": "let",
-                    "sentence": "Let me help you with that."
-                },
-                {
-                    "_id": "28",
-                    "word": "begin",
-                    "image": "begin",
-                    "sentence": "We can begin the meeting now."
                 },
                 {
                     "_id": "29",
@@ -272,18 +236,6 @@
                     "sentence": "I run every morning."
                 },
                 {
-                    "_id": "34",
-                    "word": "move",
-                    "image": "move",
-                    "sentence": "We need to move quickly."
-                },
-                {
-                    "_id": "35",
-                    "word": "live",
-                    "image": "live",
-                    "sentence": "They live in a big house."
-                },
-                {
                     "_id": "36",
                     "word": "believe",
                     "image": "believe",
@@ -296,22 +248,10 @@
                     "sentence": "Can you bring me a glass of water?"
                 },
                 {
-                    "_id": "38",
-                    "word": "happen",
-                    "image": "happen",
-                    "sentence": "It happened so fast."
-                },
-                {
                     "_id": "39",
                     "word": "write",
                     "image": "write",
                     "sentence": "She likes to write stories."
-                },
-                {
-                    "_id": "40",
-                    "word": "provide",
-                    "image": "provide",
-                    "sentence": "They provide excellent service."
                 },
                 {
                     "_id": "41",
@@ -342,12 +282,6 @@
                     "word": "meet",
                     "image": "meet",
                     "sentence": "We will meet tomorrow."
-                },
-                {
-                    "_id": "46",
-                    "word": "include",
-                    "image": "include",
-                    "sentence": "The package includes a free gift."
                 },
                 {
                     "_id": "47",
@@ -467,7 +401,7 @@
                     "_id": "66",
                     "word": "sell",
                     "image": "sell",
-                    "sentence": "They are selling their old car."
+                    "sentence": "She is selling fruit."
                 },
                 {
                     "_id": "67",
@@ -584,18 +518,6 @@
                     "sentence": "Would you like to join us for dinner?"
                 },
                 {
-                    "_id": "88",
-                    "word": "suggest",
-                    "image": "suggest",
-                    "sentence": "I suggest we take a break."
-                },
-                {
-                    "_id": "89",
-                    "word": "decide",
-                    "image": "decide",
-                    "sentence": "We need to decide where to go on vacation."
-                },
-                {
                     "_id": "90",
                     "word": "discover",
                     "image": "discover",
@@ -608,12 +530,6 @@
                     "sentence": "They agreed to the terms."
                 },
                 {
-                    "_id": "92",
-                    "word": "disagree",
-                    "image": "disagree",
-                    "sentence": "I disagree with his opinion."
-                },
-                {
                     "_id": "93",
                     "word": "accept",
                     "image": "accept",
@@ -624,12 +540,6 @@
                     "word": "refuse",
                     "image": "refuse",
                     "sentence": "He refused to answer the question."
-                },
-                {
-                    "_id": "95",
-                    "word": "expect",
-                    "image": "expect",
-                    "sentence": "We expect the results by next week."
                 },
                 {
                     "_id": "96",
