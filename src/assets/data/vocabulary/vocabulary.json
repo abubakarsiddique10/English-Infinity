@@ -779,16 +779,6 @@
                     "tags": "colors"
                 },
                 {
-                    "_id": "16",
-                    "word": "indigo",
-                    "meaning": "নীল",
-                    "image": "indigo",
-                    "synonym": [],
-                    "antonym": [],
-                    "sentence": "The indigo dye was used to color the fabric.",
-                    "tags": "colors"
-                },
-                {
                     "_id": "17",
                     "word": "silver",
                     "meaning": "রুপা",

@@ -1,12 +1,13 @@
 import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
+import { textToSpeech } from "../lib/speech.js";
 
 
 let allData = null;
 // Load vocabularies for a given category
 async function getVocabulary() {
     setLoading(true);
-    const url = `././assets/data/verb/verb.json`;
+    const url = `././assets/data/verb/verbs.json`;
     try {
         const response = await fetchData(url);
         const { categories, verb_data } = response;
@@ -30,7 +31,6 @@ const displayVerbs = (verbs) => {
         const verbCardElement = createVocabulariesCard(verb);
         verbsContainer.appendChild(verbCardElement)
     });
-    pronounce()
 }
 
 // Create a vocabulary card element: card-
@@ -39,14 +39,14 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
     verbCard.className = 'min-h-[160px] h-full flex';
     verbCard.title = `Click for details about ${word}`;
     verbCard.innerHTML = `
-        <a href="#" class="pt-0 flex flex-col items-center w-full" aria-label="Details about camel">
-            <img id="svg" class="w-[100px] bg-transparent" src="./assets/images/verb/${image}.png" alt="${image}">
+        <button class="pt-0 flex flex-col items-center w-full" aria-label="Details about camel">
+            <img id="svg" class="w-[100px] bg-transparent" src="./assets/images/verbs/${image}.png" alt="${image}">
             <div class="flex items-center mt-5 gap-1">
                 <span class="text-lg font-medium leading-6 capitalize text-center">${word}</span>
                 <img class="w-5 pronounce" src="./assets/images/icons/volume_up.svg" title="Click for pronounced" alt="pronounce">
             </div>
             <span class="mt-1 text-sm text-center first-letter:capitalize">${sentence}</span>
-        </a>
+        </button>
     `;
     return verbCard
 }
@@ -85,17 +85,14 @@ function handleTagClick(event) {
 const tags = document.getElementById('tags');
 tags.addEventListener('click', handleTagClick);
 
-const speechSynthesis = window.speechSynthesis;
-const utterance = new SpeechSynthesisUtterance;
-utterance.rate = 0.7
 
-function pronounce() {
+document.addEventListener('DOMContentLoaded', () => {
     const verb = document.getElementById('verb');
     verb.addEventListener('click', (e) => {
         const isTrue = e.target.classList.contains('pronounce');
         if (isTrue) {
-            utterance.text = e.target.previousElementSibling.innerText;
-            speechSynthesis.speak(utterance);
+            let text = e.target.previousElementSibling.innerText;
+            textToSpeech(text)
         }
-    })
-}
+    });
+});

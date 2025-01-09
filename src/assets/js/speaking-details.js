@@ -195,14 +195,13 @@ const createDailyUseSentencesCard = ({ icon, text, example }) => {
 //<p class="text-5xl">• ${example}</p>
 
 
-
 // display tags
 const displayTag = (contents,) => {
     const tags = document.getElementById('tags');
-    tags.className = "bg-white sticky top-14 pt-6 !pb-4 lg:top-24 flex lg:mx-0 lg:block overflow-auto lg:pt-0 w-full lg:max-w-[368px] lg:border-l lg:h-full lg:pl-10 lg:min-h-10"
+    tags.className = "bg-white border-b lg:border-b-0 sticky top-14 lg:top-24 flex lg:mx-0 lg:block overflow-auto lg:pt-0 w-full lg:max-w-[368px] lg:border-l lg:h-full lg:pl-10 lg:min-h-10"
     contents.forEach((content, index) => {
         const button = document.createElement('button');
-        button.className = `filter-button lg:w-full font-inter text-left py-1 px-3 lg:py-2 lg:px-4 rounded-md capitalize text-sm  lg:text-base ${index == 0 ? "active" : ""}`
+        button.className = `filter-button font-inter text-left py-2 lg:py-3 px-4 capitalize flex items-center space-x-1.5 block border-b border-white lg:border-white lg:w-full ${index == 0 ? "active" : ""}`
         button.innerText = content;
         tags.appendChild(button);
     })

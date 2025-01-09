@@ -3,6 +3,7 @@ const queryParams = new URLSearchParams(window.location.search);
 const category = queryParams.get('category');
 import { fetchData } from "./common.js";
 import { setLoading } from "./main.js";
+import { textToSpeech } from "../lib/speech.js";
 
 /* const getCategoryInHTML = document.querySelector('.categories');
 getCategoryInHTML.innerHTML = category */
@@ -51,9 +52,8 @@ const displayVocabularies = (vocabularies) => {
         const vocabularyCardElement = createVocabulariesCard(vocabulary);
         vocabularyContainer.appendChild(vocabularyCardElement)
     });
-    pronounce()
 }
-{/* <img id="svg" class="w-12" src="./assets/images/vocabulary/${category}/${image}.svg" alt="${image}"></img> */ }
+
 
 
 // Create a vocabulary card element: card-
@@ -79,12 +79,12 @@ const createVocabulariesCard = ({ word, image, sentence }) => {
 // display tags
 const displayTag = (contents) => {
     const tags = document.getElementById('tags');
-    tags.className = `bg-white pt-6 lg:pt-8 !pb-4 flex overflow-auto w-full space-x-3`
+    tags.className = `bg-white flex overflow-auto w-full border-b`;
     contents.forEach((content, index) => {
         const button = document.createElement('button');
-        button.className = `filter-button font-inter text-left py-1 px-3 pr-3 rounded-md capitalize border flex items-center space-x-1.5 block ${index == 0 ? "active" : ""}`
+        button.className = `filter-button font-inter text-left py-2 lg:py-3 px-4 capitalize flex items-center space-x-1.5 block border-b border-white lg:border-white ${index == 0 ? "active" : ""}`
         button.innerHTML = `
-            <img class="max-w-4" src="./assets/images/tags/${content}.png" alt="">
+            <img class="max-w-4 inline-block" src="./assets/images/tags/${content}.png" alt="">
             <span class="capitalize text-sm">${content}</span>
         `;
         tags.appendChild(button);
@@ -110,39 +110,13 @@ const tags = document.getElementById('tags');
 tags.addEventListener('click', handleTagClick);
 
 
-
-
-
-const speechSynthesis = window.speechSynthesis;
-const utterance = new SpeechSynthesisUtterance;
-utterance.rate = 0.7
-
-
-// Wait for the voices to be loaded
-/* speechSynthesis.onvoiceschanged = () => {
-    // Check if voices are available
-    const voices = speechSynthesis.getVoices();
-    if (voices.length > 0) {
-        // Select a voice (for example, the first one)
-        utterance.voice = voices[0];
-
-        // change the voice rate
-        // utterance.rate = 0.7;
-    } else {
-        console.error("No voices available.");
-    }
-}; */
-
-function pronounce() {
+document.addEventListener('DOMContentLoaded', () => {
     const vocabulary = document.getElementById('vocabulary');
     vocabulary.addEventListener('click', (e) => {
-        console.log(e.target)
         const isTrue = e.target.classList.contains('pronounce');
         if (isTrue) {
-            utterance.text = e.target.previousElementSibling.innerText;
-            speechSynthesis.speak(utterance);
+            let text = e.target.previousElementSibling.innerText;
+            textToSpeech(text)
         }
-    })
-}
-
-
+    });
+});
